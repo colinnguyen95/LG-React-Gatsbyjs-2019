@@ -1,11 +1,28 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Header from '../components/Header';
+import Goals from '../components/Goals';
+import Work from '../components/Work';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
+//import Header from './Header'
 
 const IndexPage = () => (
   <div>
-    <h1>Learn to <br />design and code React apps</h1>
-    <p>Complete courses about the best tools and design systems. Prototype and build apps with React and Swift.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    
+    <Header 
+      imageLogo={require('../images/New_LG_Logo.svg')}
+      image={require('../images/header_LG.jpg')}
+    />
+  
+    <Work />
+    
+    <Goals />
+
+    <Contact />
+
+    <Footer />
+    
   </div>
 )
 

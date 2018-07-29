@@ -1,0 +1,158 @@
+.nav-section{
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-toggle{
+    padding: 1em;
+    position: absolute;
+    top: .5em;
+    right: .5em;
+    cursor: pointer;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    display: block;
+    background: #7F7F7F;
+    height: 3px;
+    width: 1.75em;
+    border-radius: 3px;
+    transition: all ease-in-out 350ms;
+}
+            
+.hamburger::before{
+    transform: translateY(-6px);
+}
+
+.hamburger::after{
+    transform: translateY(3px);
+}
+
+.site-nav{
+    float: right;
+    background: white;
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    height: 0px;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    
+li{
+    border-bottom: 1px solid #575766;
+}
+    
+li:last-child{
+    border-bottom: none;
+}
+
+a{
+    text-decoration:none;
+    display: block;
+    padding: 2em 6em;
+    color: #7F7F7F;
+}
+
+a:hover{
+    color: #4FC2AA; 
+}
+
+.site-nav--open{
+    height: auto;
+}
+
+.open .hamburger{
+    transform: rotate(45deg);
+}
+
+.open .hamburger::before{
+    opacity: 0;
+}
+
+.open .hamburger::after{
+    transform: translateY(-3px) rotate(-90deg);
+}
+
+/* .menu-toggle{
+    padding: 1em;
+    position: absolute;
+    top: .5em;
+    right: .5em;
+    cursor: pointer;
+}
+
+.site-nav{
+    float: right;
+    background: white;
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    height: 0px;
+    overflow: hidden;
+} */
+
+@media (min-width: 1025px){
+    .nav-section{
+        position: fixed;
+        z-index: 100;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: 0 auto;
+        background: #EBECE9;
+    }
+
+    .nav-container{
+        list-style: none;
+        display: flex;
+        padding: 20px 10px;
+    }
+
+    .menu-toggle{
+        display: none;
+    }
+
+    .site-nav{
+        float: right;
+        background: transparent;
+        position: relative;
+        height: auto;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li{
+        display: inline-block;
+        border: none;
+    }
+
+    li:last-child{
+        border-bottom: none;
+    }
+
+    a{
+        text-decoration:none;
+        padding: 0 4.3em;
+        color: #7F7F7F;
+    }
+
+    a:hover{
+        color: #4FC2AA;
+    }
+}

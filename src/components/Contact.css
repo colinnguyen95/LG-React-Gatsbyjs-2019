@@ -1,0 +1,162 @@
+.ContactGroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    padding: 20px;
+    background: linear-gradient(
+        rgba(0,0,0, .5),
+        rgba(0,0,0, .9),
+        rgba(0,0,0, .5)),
+        url( ../images/contact_lg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    
+.contact-container{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+        
+.contact-section{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.contact-section p{
+    margin: 6px;
+}
+
+.contact-section .brand{
+    font-size: 20px;
+}
+
+.contact-section .phone, .email{
+    font-size: 14px;
+}
+           
+form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+            
+.ContactGoup p{
+    margin: 10px;
+}
+            
+.full button, input, textarea{
+    width: 100%;
+    padding: 0.3em 0;
+}
+            
+.full button{
+    background: #4FC2AA;
+    border: none;
+    border-radius: 10px;
+}
+               
+.alert{
+    text-align: center;
+    padding: 10px;
+    background: #79c879;
+    color: #fff;
+    margin-bottom: 10px;
+    display: none;
+}
+
+@media (min-width: 768px){
+    .ContactGroup{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        height: 500px;
+        padding: 50px 50px;
+        margin: 50px 0;
+    }
+        
+    .contact-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+            
+    .contact-section{
+        margin: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contact-section p{
+        margin: 10px;
+    }
+
+    .contact-section .brand{
+        font-size: 30px;
+    }
+    
+    .contact-section .phone, .email{
+        font-size: 20px;
+    }
+               
+    form{
+        margin: 0 20px;
+        height: 90%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-basis: 40%;
+    }
+
+    .ContactGroup form input, .ContactGroup form textarea{
+        width: 100%;
+        padding: 0.7em;
+        border: 1px solid#4FC2AA;
+    }
+
+    /* input::-webkit-input-placeholder {
+        font-size: 18px;
+    } */
+    
+    .full button, input, textarea{
+        width: 95%;
+        font-size: 14px;
+    }
+    
+    .full button{
+        font-size: 18px;
+        width: 100%;
+        background: #4FC2AA;
+        border: 0;
+    }
+    
+    .full button:hover, button:focus{
+        background: #2A7C6B;
+    }
+}
+
+@media(min-width: 1025px){
+    .ContactGroup{
+        margin-top: 50px;
+    }
+
+    .contact-container{
+        margin: 20px;
+    }
+}

@@ -1,33 +1,49 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import './Header.css'
+import styled from 'styled-components'
 
-const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </div>
+const HeaderGroup = styled.div`
+    background: linear-gradient(
+        rgba(20,20,20, .57),
+        rgba(20,20,20, .93),
+        rgba(20,20,20, .6)),
+        url(${props => props.image});
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`
+const HeaderLogo = styled.img`
+    height: 170px;
+    width: 100%;
+`
+
+const Parallax = styled.div`
+
+`
+
+
+
+const Header = props => (
+	// <div className="Header">
+    //     <div className="parallax">
+    //         <img className="logo" src={props.imageLogo} />
+    //         <img src={props.image} />
+    //     </div>
+    // </div>
+    
+    <HeaderGroup image={props.image}>
+        <HeaderLogo src={props.imageLogo} />
+        <Parallax >
+
+        </Parallax>
+        <a href="#" className="action">Get in touch!</a>
+    </HeaderGroup>
 )
 
 export default Header
