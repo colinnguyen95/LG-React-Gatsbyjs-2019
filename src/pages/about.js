@@ -1,20 +1,34 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Header from '../components/Header';
-import Goals from '../components/Goals';
+import Card from '../components/Card';
+import { teams } from '../team';
 
 const AboutPage = () => {
   return (
     <div>
-      <div className="Header">
-      <Header 
+        <Header 
         imageLogo={require('../images/New_LG_Logo.svg')}
         image={require('../images/contact_lg.jpg')}
       />
-    </div>
-    <div>
-      <Goals/>
-    </div>
+      
+      <div className="aboutTitleWrap">
+        <h1 className="aboutTitle">Our Team!</h1>
+      </div>
+
+      <div className="Cards">
+        <Card 
+          name={teams[0].name}
+          position={teams[0].position}
+          image={require('../images/about-resize.jpg')}
+        />
+
+        <Card 
+          name={teams[0].name}
+          position={teams[0].position}
+          image={require('../images/about-resize.jpg')}
+        />
+      </div>
+
     </div>
   )
 }
