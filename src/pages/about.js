@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header';
 import Card from '../components/Card';
 import { teams } from '../team';
+import '../components/Card.css'
 
 const AboutPage = () => {
   return (
@@ -16,17 +17,18 @@ const AboutPage = () => {
       </div>
 
       <div className="Cards">
-        <Card 
-          name={teams[0].name}
-          position={teams[0].position}
-          image={require('../images/about-resize.jpg')}
-        />
-
-        <Card 
-          name={teams[0].name}
-          position={teams[0].position}
-          image={require('../images/about-resize.jpg')}
-        />
+        {
+          teams.map((member, i) => {
+            return (
+              <Card 
+                key={i}
+                name={teams[i].name}
+                position={teams[i].position}
+                image={teams[i].image}
+              />
+            );
+          })
+        }
       </div>
 
     </div>

@@ -7,23 +7,6 @@ body {
   background-color: #EBECE9;
 }
 
-.aboutTitleWrap{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.aboutTitle{
-  width: 80%;
-  font-family: lighter;
-  margin: 50px;
-  color:  #4FC2AA;
-  text-align: center;
-  border-top: 1px solid #787975;
-  border-bottom: 1px solid #787975;
-  padding:2% 0 2% 0;
-}
-
 @media (min-width: 320px) and (max-width: 480px) {
   body {
     margin: 0px;
