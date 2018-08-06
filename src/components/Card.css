@@ -4,6 +4,10 @@
     justify-content: center;
     flex-direction: row;
 } */
+/* .tester{
+    display: flex;
+} */
+
 .aboutTitleWrap{
     display: flex;
     align-items: center;
@@ -20,13 +24,6 @@
     border-bottom: 1px solid #787975;
     padding:2% 0 2% 0;
   }
-
-.Cards{
-    display: flex;
-    /* height: 100%;
-    width: 100%;
-    overflow: auto; */
-}
 
 .Card{
     width: 280px;
