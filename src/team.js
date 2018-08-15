@@ -14,7 +14,7 @@ export const teams = [
     {
       id: 3,
       name: 'Ariana Hohn',
-      position: 'Accountant',
+      position: 'Employee',
       image: 'https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/35142647_10100768804741211_7921992049904058368_n.jpg?_nc_cat=0&oh=d6c466b2acdbf54e8fbbd42a14e959af&oe=5BD30C61'
     },
     {

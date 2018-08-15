@@ -1,5 +1,7 @@
 import React from 'react'
 import Header from '../components/Header';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 import CardList from '../components/CardList';
 
 const AboutPage = () => {
@@ -30,6 +32,10 @@ const AboutPage = () => {
       </div> */}
 
       <CardList />
+
+      <Contact />
+
+      <Footer />
 
     </div>
   )

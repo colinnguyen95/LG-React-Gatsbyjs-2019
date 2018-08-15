@@ -26,8 +26,10 @@
   }
 
 .Card{
-    width: 280px;
-    height: 380px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 180px;
+    height: 280px;
     position: relative;
     overflow: hidden;
     border-radius: 20px;
@@ -45,7 +47,15 @@
     z-index: -1;
 }
 
+.CardGroup{
+    flex: 0 0 20%
+}
+
 .CardGroup h3{
     font-size: 18px;
+}
+
+.CardGroup h3,h6 {
+    margin: 0;
 }
 
