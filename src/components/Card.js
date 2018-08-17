@@ -7,6 +7,7 @@ const Card = props => {
             <h3>{props.name}, </h3>
             <h6>{props.position}</h6>
             <div className="Card">
+                <div className="overlay"></div>
                 <img alt="team" src={props.image}/>
             </div>
         </div>

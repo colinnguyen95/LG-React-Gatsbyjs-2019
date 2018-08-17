@@ -1,7 +1,3 @@
-.active{
-    color: #4FC2AA;
-}
-
 .nav-section{
     height: 50px;
     position: relative;
@@ -108,6 +104,10 @@ a:hover{
 } */
 
 @media (min-width: 1025px){
+    .active{
+        color: #4FC2AA;
+    }
+
     .nav-section{
         position: fixed;
         z-index: 100;
@@ -116,7 +116,27 @@ a:hover{
         top: 0;
         margin: 0 auto;
         background: #EBECE9;
+        transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     }
+
+    .NavScrolled {
+        /* background: rgba(84, 184, 156, 0.8); */
+        background: rgba(120, 121, 117, 0.8);
+        backdrop-filter: blur(20px);
+        padding: 15px 0;
+    }
+
+    .NavScrolled a {
+        color: white;
+    }
+
+    .NavScrolled .active{
+        color: #4FC2AA;
+    }
+
+    /* .NavScrolled .active {
+        color: grey;
+    } */
 
     .nav-container{
         list-style: none;

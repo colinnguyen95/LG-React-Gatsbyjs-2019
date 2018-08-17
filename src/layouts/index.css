@@ -7,6 +7,16 @@ body {
   background-color: #EBECE9;
 }
 
+/* .WholeCardList{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.butts{
+  background-color: blue;
+} */
+
 @media (min-width: 320px) and (max-width: 480px) {
   body {
     margin: 0px;

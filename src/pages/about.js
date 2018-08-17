@@ -30,7 +30,6 @@ const AboutPage = () => {
           })
         }
       </div> */}
-
       <CardList />
 
       <Contact />

@@ -1,5 +1,12 @@
 .maaan{
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    justify-items: center;
+
+    min-height: 0;  /* NEW */
+    min-width: 0;
 }

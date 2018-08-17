@@ -127,7 +127,7 @@ form{
     .ContactGroup form input, .ContactGroup form textarea{
         width: 100%;
         padding: 0.7em;
-        border: 1px solid#4FC2AA;
+        /* border: 1px solid#4FC2AA; */
     }
 
     /* input::-webkit-input-placeholder {
