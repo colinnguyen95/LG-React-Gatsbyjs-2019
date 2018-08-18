@@ -12,7 +12,7 @@ const HeaderGroup = styled.div`
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 550px;
     position: relative;
     display: flex;
     align-items: center;

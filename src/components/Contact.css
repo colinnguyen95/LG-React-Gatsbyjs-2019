@@ -1,3 +1,7 @@
+.ContactGroup form p{
+    margin: 0;
+}
+
 .ContactGroup{
     display: flex;
     align-items: center;
@@ -19,7 +23,7 @@
     height: 90%;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
 }
         
@@ -45,7 +49,8 @@
     font-size: 14px;
 }
            
-form{
+.ContactGroup form p{
+    margin: 20px 0;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -81,7 +86,7 @@ form{
         align-items: center;
         flex-direction: row;
         justify-content: center;
-        height: 500px;
+        height: 400px;
         padding: 50px 50px;
         margin: 50px 0;
     }
@@ -119,7 +124,7 @@ form{
         margin: 0 20px;
         height: 90%;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: column;
         flex-basis: 40%;
     }
@@ -158,5 +163,9 @@ form{
 
     .contact-container{
         margin: 20px;
+    }
+
+    .ContactGroup form p{
+        margin: 10px 0;
     }
 }

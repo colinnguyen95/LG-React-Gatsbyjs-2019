@@ -1,12 +1,14 @@
-.maaan{
-    /* display: flex;
+.aboutSection{
+    /* margin: 0 auto;
+    padding-left: 0;
+    width: 1200px;
+    text-align: center; */
+    /* background: pink; */
+    display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start; */
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
-    justify-items: center;
-
-    min-height: 0;  /* NEW */
-    min-width: 0;
+    justify-items: center; */
 }
+
