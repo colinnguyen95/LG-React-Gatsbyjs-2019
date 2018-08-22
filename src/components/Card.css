@@ -1,11 +1,39 @@
-.CardGroup:hover .AboutText p{
-    display: block;
-    width: 100%;
-    flex-basis: 100%;
+/* .panel .panel-body{
+    display: none;
 }
 
-.CardGroup .AboutText p{
-    display: none;
+.is-expanded .panel-body{
+  display: block;
+} */
+
+/* //Simple CSS transition of max-height */
+/* .panel .panel-collapse{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s cubic-bezier(0.525, 0.66, 0.495, 1.4)
+}
+
+.is-expanded .panel-collapse{
+    max-height: 200px;
+} */
+
+/* JS calculated height - most accurate */
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.panel .panel-heading{
+    cursor: pointer;
+}
+
+.panel .panel-collapse{
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+}
+
+.panel .panel-body {
+    border: none !important;
 }
 
 .aboutTitleWrap{
@@ -24,8 +52,6 @@
     border-bottom: 1px solid #787975;
     padding:2% 0 2% 0;
   }
-
-
 
 .CardGroup{
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -89,6 +115,32 @@
 .CardGroup:hover img {
     /* -webkit-transform: translateY(-20px); */
     transform: translateY(-15px);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .CardGroup{
+        width: 50%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+@media (min-width: 1281px) {
+
 }
 
 

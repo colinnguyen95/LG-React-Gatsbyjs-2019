@@ -4,14 +4,14 @@ export const teams = [
       name: 'Lynh Severson',
       position: 'Co-Founder',
       image: 'https://drh2acu5z204m.cloudfront.net/items/2W1s2W3Z2d043q0o2612/LG-Lynh.jpg?X-CloudApp-Visitor-Id=3116428&v=0a1c1e00',
-      description: "Lorem ipsum dolor amet fanny pack vaporware mumblecore bitters lo-fi fingerstache beard locavore scenester YOLO tattooed. Sartorial put a bird on it hashtag whatever, echo park lomo wayfarers locavore mustache YOLO microdosing salvia. Paleo cronut +1, semiotics flexitarian franzen kickstarter hot chicken 90's kombucha deep v forage trust fund palo santo disrupt. Aesthetic skateboard la croix letterpress slow-carb kombucha pickled hammock truffaut. Hoodie celiac asymmetrical skateboard shabby chic cardigan street art thundercats sriracha edison bulb brunch narwhal wolf."
+      description: "Lynh brings over 15 years of experience in building brand awareness across a multi-product portfolio ranging from Ophthalmology to tumor therapy solutions. Quality time spent with family, friends and the relationships built within LG Marketing is what drives her."
     },
     {
       id: 2,
       name: 'Gina Jackman',
       position: 'Co-Founder',
       image: 'https://drh2acu5z204m.cloudfront.net/items/1m0L151M0X3i0A0c2r2q/LG-Gina.jpg?X-CloudApp-Visitor-Id=3116428&v=1637cac0',
-      description: "Lorem ipsum dolor amet fanny pack vaporware mumblecore bitters lo-fi fingerstache beard locavore scenester YOLO tattooed. Sartorial put a bird on it hashtag whatever, echo park lomo wayfarers locavore mustache YOLO microdosing salvia. Paleo cronut +1, semiotics flexitarian franzen kickstarter hot chicken 90's kombucha deep v forage trust fund palo santo disrupt. Aesthetic skateboard la croix letterpress slow-carb kombucha pickled hammock truffaut. Hoodie celiac asymmetrical skateboard shabby chic cardigan street art thundercats sriracha edison bulb brunch narwhal wolf."
+      description: "The “G” in LG Marketing, Gina Jackman, has spent 15 years in the marketing profession with more than half of those years dedicated to Align Technology (the makers of Invisalign® clear aligners). Her life mantra is simple: Wake up. Work hard. Have fun. Be kind. Repeat. For a fun fact ask her where she got engaged. "
     },
     {
       id: 3,
