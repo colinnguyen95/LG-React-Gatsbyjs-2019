@@ -17,7 +17,6 @@ class Card extends React.Component {
         })
     }
 
-
     render(){
         const {name, position, image, description} = this.props;
         const {isExpanded, height} = this.state;
@@ -26,14 +25,14 @@ class Card extends React.Component {
 
         return(
             <div className="CardGroup">
-                <div className={`panel panel-heading ${isExpanded ? 'is-expanded' : ""}`} onClick={(e) => this.handleToggle(e)}>
+                <div className={`panel panel-heading ${isExpanded ? 'is-expanded has-margin' : ""}`} onClick={(e) => this.handleToggle(e)}>
                     <h3>{name}, </h3>
                     <h6>{position}</h6>
                     <div className="Card">
                         <div className="overlay"></div>
                         <img alt="team" src={image}/>
                     </div>
-                    <div className="panel-collapse" style={{height: currentHeight}}>
+                    <div className="panel-collapse" style={{height: currentHeight+'px'}}>
                         <div className="panel-body" ref="inner">
                             {description}
                         </div>

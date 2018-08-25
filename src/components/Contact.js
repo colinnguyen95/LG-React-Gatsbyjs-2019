@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 
 const Contact = props => (
-    <div className="ContactGroup">
+    <div name="ContactSection" className="ContactGroup">
         <div className="contact-container">
             <div className="contact-section">
                 <p className="brand">Looking to get in touch?</p>

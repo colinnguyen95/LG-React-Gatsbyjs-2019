@@ -27,13 +27,28 @@
     cursor: pointer;
 }
 
+.has-margin{
+    margin-bottom: 50px;
+}
+
 .panel .panel-collapse{
+    /* display: inline-block; */
+    box-sizing: border-box;
     overflow: hidden;
     transition: height 0.3s ease-out;
 }
 
 .panel .panel-body {
-    border: none !important;
+    box-sizing: border-box;
+    border-top: 1px solid #787975;
+    border-bottom: 1px solid #787975;
+    padding: 20px 0;
+    /* border: none !important; */
+    /* margin-bottom: 20px; */
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0 5px;
 }
 
 .aboutTitleWrap{
@@ -45,7 +60,7 @@
 .aboutTitle{
     width: 80%;
     font-family: lighter;
-    margin: 50px;
+    margin-top: 50px;
     color:  #4FC2AA;
     text-align: center;
     border-top: 1px solid #787975;
@@ -54,14 +69,17 @@
   }
 
 .CardGroup{
+    margin-top: 20px;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     width: 33.333%;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .CardGroup:hover {
     transform: scale(1.1, 1.1);
+    /* margin-bottom: 20px; */
     /* box-shadow: 0 30px 60px rgba(0,0,0, 0.5); */
 }
 
@@ -76,8 +94,7 @@
 
 .Card{
     z-index: 1;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin: 20px 0;
     width: 250px;
     height: 350px;
     position: relative;
@@ -100,7 +117,7 @@
     width:100%;
     height:100%;
     background-color:#000;
-    opacity:0.5;
+    opacity:0.6;
     z-index: 100;
 } */
 
@@ -115,7 +132,12 @@
 .CardGroup:hover img {
     /* -webkit-transform: translateY(-20px); */
     transform: translateY(-15px);
+    cursor: pointer; /* Add a pointer on hover */
 }
+
+/* .CardGroup:focus {
+    margin-bottom: 200px;
+} */
 
 @media (min-width: 320px) and (max-width: 480px) {
 

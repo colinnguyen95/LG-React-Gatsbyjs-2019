@@ -1,12 +1,13 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import './Nav.css'
+import './Scroller.css'
+import * as Scroll from 'react-scroll';
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
-import { Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-
-class Nav extends React.Component {
+class Scroller extends React.Component {
     constructor(props) {
         super(props)
+
+        this.scrollToTop = this.scrollToTop.bind(this);
 
         this.state = {
             hasScrolled: false
@@ -14,9 +15,6 @@ class Nav extends React.Component {
     }
 
     componentDidMount() {
-        window.addEventListener('scroll', 
-        this.handleScroll)
-
         Events.scrollEvent.register('begin', function () {
             console.log("begin", arguments);
           });
@@ -29,15 +27,16 @@ class Nav extends React.Component {
     scrollToTop() {
         scroll.scrollToTop();
     }
-    scrollTo() {
-    scroller.scrollTo('scroll-to-element', {
-        duration: 800,
-        delay: 0,
-        smooth: 'easeInOutQuart'
-    })
-    }
-    scrollToWithContainer() {
 
+    scrollTo() {
+        scroller.scrollTo('scroll-to-element', {
+            duration: 800,
+            delay: 0,
+            smooth: 'easeInOutQuart'
+        })
+    }
+
+    scrollToWithContainer() {
         let goToContainer = new Promise((resolve, reject) => {
 
             Events.scrollEvent.register('end', () => {
@@ -50,7 +49,6 @@ class Nav extends React.Component {
                 delay: 0,
                 smooth: 'easeInOutQuart'
             });
-
         });
 
         goToContainer.then(() =>
@@ -79,24 +77,13 @@ class Nav extends React.Component {
 
     render() {
         return(
-        <div className={this.state.hasScrolled ? "nav-section NavScrolled" : "nav-section"}>
-            <div className="nav-container">
-                <nav className="site-nav">
-                    <ul>
-                        <li><Link exact to="/" activeClassName="active">Home</Link></li>
-                        <li><Link exact to="/services" activeClassName="active">Services</Link></li>
-                        <li><Link exact to="/about" activeClassName="active">About</Link></li>
-                        <li><Link exact to="/contact" activeClassName="active">Contact</Link></li>
-                    </ul>
-                </nav>
-                
-                <div className="menu-toggle">
-                    <div className="hamburger"></div>
-                </div>
-            </div>
+        <div className="ActionButton">
+            <Link activeClass="active" className="action" to="ContactSection" spy={true} smooth={true} offset={50} duration={500}>
+                Get in touch!
+            </Link>
         </div>
         )
     }
 }
 
-export default Nav
+export default Scroller

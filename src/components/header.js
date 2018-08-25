@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import Scroller from './Scroller'
 import styled from 'styled-components'
 
 const HeaderGroup = styled.div`
@@ -27,8 +28,6 @@ const Parallax = styled.div`
 
 `
 
-
-
 const Header = props => (
 	// <div className="Header">
     //     <div className="parallax">
@@ -42,7 +41,7 @@ const Header = props => (
         <Parallax >
 
         </Parallax>
-        <a href="#" className="action">Get in touch!</a>
+        <Scroller />
     </HeaderGroup>
 )
 
