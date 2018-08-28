@@ -2,69 +2,27 @@ import React from 'react'
 import Link from 'gatsby-link'
 import './Nav.css'
 
-import { Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-
 class Nav extends React.Component {
     constructor(props) {
         super(props)
 
         this.state = {
-            hasScrolled: false
+            hasScrolled: false,
+            isExpanded: false
         }
+    }
+
+    handleToggle(e){
+        e.preventDefault();
+        this.setState({
+            isExpanded: !this.state.isExpanded,
+            height: this.refs.inner.clientHeight
+        })
     }
 
     componentDidMount() {
         window.addEventListener('scroll', 
         this.handleScroll)
-
-        Events.scrollEvent.register('begin', function () {
-            console.log("begin", arguments);
-          });
-      
-          Events.scrollEvent.register('end', function () {
-            console.log("end", arguments);
-          });
-    }
-
-    scrollToTop() {
-        scroll.scrollToTop();
-    }
-    scrollTo() {
-    scroller.scrollTo('scroll-to-element', {
-        duration: 800,
-        delay: 0,
-        smooth: 'easeInOutQuart'
-    })
-    }
-    scrollToWithContainer() {
-
-        let goToContainer = new Promise((resolve, reject) => {
-
-            Events.scrollEvent.register('end', () => {
-                resolve();
-                Events.scrollEvent.remove('end');
-            });
-
-            scroller.scrollTo('scroll-container', {
-                duration: 800,
-                delay: 0,
-                smooth: 'easeInOutQuart'
-            });
-
-        });
-
-        goToContainer.then(() =>
-            scroller.scrollTo('scroll-container-second-element', {
-            duration: 800,
-            delay: 0,
-            smooth: 'easeInOutQuart',
-            containerId: 'scroll-container'
-        }));
-    }
-
-    componentWillUnmount() {
-        Events.scrollEvent.remove('begin');
-        Events.scrollEvent.remove('end');
     }
 
     handleScroll = (event) => {
@@ -78,10 +36,12 @@ class Nav extends React.Component {
     }
 
     render() {
+        const {isExpanded, height} = this.state;
+        const currentHeight = isExpanded ? height : 0;
         return(
         <div className={this.state.hasScrolled ? "nav-section NavScrolled" : "nav-section"}>
             <div className="nav-container">
-                <nav className="site-nav">
+                <nav className={`site-nav ${isExpanded ? 'site-nav--open' : ""}`} ref="inner">
                     <ul>
                         <li><Link exact to="/" activeClassName="active">Home</Link></li>
                         <li><Link exact to="/services" activeClassName="active">Services</Link></li>
@@ -90,7 +50,7 @@ class Nav extends React.Component {
                     </ul>
                 </nav>
                 
-                <div className="menu-toggle">
+                <div className={`menu-toggle ${isExpanded ? 'open' : ""}`} onClick={(e) => this.handleToggle(e)}>
                     <div className="hamburger"></div>
                 </div>
             </div>

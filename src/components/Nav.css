@@ -6,11 +6,15 @@
     align-items: center;
 }
 
+.nav-section .active{
+    color: #4FC2AA;
+}
+
 .menu-toggle{
     padding: 1em;
     position: absolute;
-    top: .5em;
-    right: .5em;
+    top: .2em;
+    right: .2em;
     cursor: pointer;
 }
 
@@ -41,36 +45,44 @@
     top: 100%;
     right: 0%;
     height: 0px;
+    z-index: 100;
+
+    transition: height 0.3s ease-out;
     overflow: hidden;
 }
 
-ul{
+.site-nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
 }
     
-li{
+.site-nav li{
     border-bottom: 1px solid #575766;
 }
     
-li:last-child{
+.site-nav li:last-child{
     border-bottom: none;
 }
 
-a{
+.site-nav a{
     text-decoration:none;
     display: block;
     padding: 2em 6em;
     color: #7F7F7F;
 }
 
-a:hover{
+.site-nav a:hover{
     color: #4FC2AA; 
 }
 
+/* .site-nav a:hover,
+.site-nav a:focus {
+    background: #E4B363;
+} */
+
 .site-nav--open{
-    height: auto;
+    height: 430px;
 }
 
 .open .hamburger{
@@ -104,10 +116,6 @@ a:hover{
 } */
 
 @media (min-width: 1025px){
-    .active{
-        color: #4FC2AA;
-    }
-
     .nav-section{
         position: fixed;
         z-index: 100;
@@ -119,23 +127,14 @@ a:hover{
         transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
     }
 
-    .NavScrolled {
-        /* background: rgba(84, 184, 156, 0.8); */
+    .NavScrolled{
         background: rgba(120, 121, 117, 0.8);
         backdrop-filter: blur(20px);
         padding: 15px 0;
     }
 
-    .NavScrolled a {
-        color: white;
-    }
-
-    .NavScrolled .active{
+    /* .NavScrolled .active{
         color: #4FC2AA;
-    }
-
-    /* .NavScrolled .active {
-        color: grey;
     } */
 
     .nav-container{
@@ -155,28 +154,32 @@ a:hover{
         height: auto;
     }
 
-    ul{
+    .site-nav ul{
         margin: 0;
         padding: 0;
         list-style: none;
     }
 
-    li{
+    .site-nav li{
         display: inline-block;
         border: none;
     }
 
-    li:last-child{
+    .site-nav li:last-child{
         border-bottom: none;
     }
 
-    a{
+    .site-nav a{
         text-decoration:none;
         padding: 0 4.3em;
         color: #7F7F7F;
     }
 
-    a:hover{
+    .NavScrolled a{
+        color: white;
+    }
+
+    .site-nav a:hover{
         color: #4FC2AA;
     }
 }

@@ -1,3 +1,9 @@
+/* .ActionButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .action{
     padding: 0;
     vertical-align: middle;
@@ -14,6 +20,38 @@
     width: 100px;
     border-radius: 50%;
     border: none;
+} */
+
+.ActionButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    padding: 0;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+
+    right: 3%;
+    bottom: 5%;
+
+    background-color: rgba(111,191,171,0.7);
+}
+
+.ActionButton .action{
+    
+    vertical-align: middle;
+    /* line-height: 100px; */
+    text-align: center;
+    text-decoration: none;
+    
+    
+    color: white;
+    
+    font-size: 13px;
+    
 }
 
 .action:hover{
@@ -22,3 +60,31 @@
     color: white;
     cursor: pointer; /* Add a pointer on hover */
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .ActionButton{
+        height: 85px;
+        width: 85px;
+    }
+
+    .ActionButton .action{
+        margin: 0 10px;
+        font-size: 13px;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .ActionButton{
+        height: 70px;
+        width: 70px;
+    }
+
+    .ActionButton .action{
+        font-size: 12px;
+    }
+  }

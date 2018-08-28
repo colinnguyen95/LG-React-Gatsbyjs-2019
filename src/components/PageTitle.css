@@ -1,0 +1,16 @@
+.TitleGroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.title{
+    width: 80%;
+    font-family: lighter;
+    margin-top: 50px;
+    color:  #4FC2AA;
+    text-align: center;
+    border-top: 1px solid #787975;
+    border-bottom: 1px solid #787975;
+    padding:2% 0 2% 0;
+  }

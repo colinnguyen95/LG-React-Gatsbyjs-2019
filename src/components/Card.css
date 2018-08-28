@@ -65,7 +65,7 @@
     text-align: center;
     border-top: 1px solid #787975;
     border-bottom: 1px solid #787975;
-    padding:2% 0 2% 0;
+    padding: 2% 0 2% 0;
   }
 
 .CardGroup{
@@ -140,11 +140,25 @@
 } */
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .CardGroup{
+        width: 100%;
+    }
 
+    .panel .panel-body {
+        font-size: 14px;
+        margin: 0 25px;
+    }
+
+    .Card{
+        width: 200px;
+        height: 300px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-
+    .CardGroup{
+        width: 100%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {

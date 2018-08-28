@@ -1,3 +1,7 @@
+.WorkGroup{
+    margin-top: 50px;
+}
+
 .top{
     display: flex;
     flex-direction: column;
@@ -76,11 +80,7 @@
     background-position: 0 20%;
 }
 
-@media (min-width: 768px) {
-    .WorkGroup{
-        margin: 0;
-    }
-        
+@media (min-width: 768px) {    
     .top{
         display: flex;
         flex-direction: row;
@@ -179,7 +179,22 @@
 
 
 @media (min-width: 1025px){
-    .WorkGroup{
-        margin-top: 50px;
-    }
+    
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .WorkGroup{
+        margin-top: 20px;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .WorkGroup{
+        margin-top: 20px;
+    }
+  }

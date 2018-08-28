@@ -7,10 +7,10 @@ import Footer from '../components/Footer';
 const ContactPage = () => {
   return (
     <div>
-      <div className="Header">
+      <div className="Header" style={{marginBottom: 50+'px'}}>
       <Header 
         imageLogo={require('../images/New_LG_Logo.svg')}
-        image={require('../images/contact_lg.jpg')}
+        image={require('../images/contact-header.jpg')}
       />
       </div>
 

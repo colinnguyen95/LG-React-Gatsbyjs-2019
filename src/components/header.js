@@ -9,7 +9,6 @@ const HeaderGroup = styled.div`
         rgba(20,20,20, .93),
         rgba(20,20,20, .6)),
         url(${props => props.image});
-    background-attachment: fixed;
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -18,10 +17,33 @@ const HeaderGroup = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        background-position: center center; 
+        background-size: cover;
+        height: 400px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        background-position: center center; 
+        background-size: cover;
+        height: 500px;
+      }
+
+    @media (min-width: 481px) and (max-width: 767px) {
+        background-position: center center; 
+        background-size: cover;
+        height: 500px;
+    }
+
+    @media (min-width: 1025px) {
+        background-attachment: fixed;
+      }
 `
 const HeaderLogo = styled.img`
     height: 170px;
     width: 100%;
+    margin: 0 20px;
 `
 
 const Parallax = styled.div`
