@@ -75,7 +75,8 @@
 
 .bottom .four{
     height: 400px;
-    background: url(../images/about-resize.jpg) center center;
+    /* background: url(../images/about-resize.jpg) center center; */
+    background: url(../images/lg_about.jpg) center center;
     background-size: cover;
     background-position: 0 20%;
 }
@@ -171,7 +172,7 @@
     .bottom .four{
         height: 500px;
         flex-basis: 50%;
-        background: url(../images/about-resize.jpg) center center;
+        /* background: url(../images/about-resize.jpg) center center; */
         background-size: cover;
         background-position: 0 35%;
     }

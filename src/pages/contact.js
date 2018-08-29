@@ -1,6 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import Header from '../components/Header';
+import Header2 from '../components/Header2';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
@@ -8,8 +7,8 @@ const ContactPage = () => {
   return (
     <div>
       <div className="Header" style={{marginBottom: 50+'px'}}>
-      <Header 
-        imageLogo={require('../images/New_LG_Logo.svg')}
+      <Header2 
+        // imageLogo={require('../images/New_LG_Logo.svg')}
         image={require('../images/contact-header.jpg')}
       />
       </div>

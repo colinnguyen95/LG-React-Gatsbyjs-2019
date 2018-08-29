@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../components/Header';
+import Header2 from '../components/Header2';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import CardList from '../components/CardList';
@@ -7,15 +7,11 @@ import CardList from '../components/CardList';
 const AboutPage = () => {
   return (
     <div>
-      <Header 
-        imageLogo={require('../images/New_LG_Logo.svg')}
+      <Header2 
+        title="Our Team"
         image={require('../images/contact_lg.jpg')}
       />
       
-      <div className="aboutTitleWrap">
-        <h1 className="aboutTitle">Our Team!</h1>
-      </div>
-
       {/* <div className="Cards">
         {
           teams.map((member, i) => {

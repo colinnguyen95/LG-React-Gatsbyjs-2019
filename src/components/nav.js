@@ -43,10 +43,26 @@ class Nav extends React.Component {
             <div className="nav-container">
                 <nav className={`site-nav ${isExpanded ? 'site-nav--open' : ""}`} ref="inner">
                     <ul>
-                        <li><Link exact to="/" activeClassName="active">Home</Link></li>
-                        <li><Link exact to="/services" activeClassName="active">Services</Link></li>
-                        <li><Link exact to="/about" activeClassName="active">About</Link></li>
-                        <li><Link exact to="/contact" activeClassName="active">Contact</Link></li>
+                        <li onClick={(e) => this.handleToggle(e)}>
+                            <Link exact to="/" activeClassName="active">
+                                Home
+                            </Link>
+                        </li>
+                        <li onClick={(e) => this.handleToggle(e)}>
+                            <Link exact to="/services" activeClassName="active">
+                                Services
+                            </Link>
+                        </li>
+                        <li onClick={(e) => this.handleToggle(e)}>
+                            <Link exact to="/about" activeClassName="active">
+                                About
+                            </Link>
+                        </li>
+                        <li onClick={(e) => this.handleToggle(e)}>
+                            <Link exact to="/contact" activeClassName="active">
+                                Contact
+                            </Link>
+                        </li>
                     </ul>
                 </nav>
                 

@@ -1,6 +1,7 @@
 import React from 'react'
-import './Header.css'
+import './Header2.css'
 import Scroller from './Scroller'
+import PageTitle from './PageTitle'
 import styled from 'styled-components'
 
 const HeaderGroup = styled.div`
@@ -40,20 +41,8 @@ const HeaderGroup = styled.div`
         background-attachment: fixed;
       }
 `
-const HeaderLogo = styled.img`
-    height: 170px;
-    width: 100%;
-    margin: 0 20px;
-    
-    opacity: 0;
-    animation: HeroAnimation 2s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
-`
 
-const Parallax = styled.div`
-
-`
-
-const Header = props => (
+const Header2 = props => (
 	// <div className="Header">
     //     <div className="parallax">
     //         <img className="logo" src={props.imageLogo} />
@@ -62,12 +51,11 @@ const Header = props => (
     // </div>
     
     <HeaderGroup image={props.image}>
-        <HeaderLogo src={props.imageLogo} />
-        <Parallax >
 
-        </Parallax>
+        <PageTitle title={props.title}/>
+        
         <Scroller />
     </HeaderGroup>
 )
 
-export default Header
+export default Header2

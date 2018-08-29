@@ -1,21 +1,19 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import Header from '../components/Header';
-import PageTitle from '../components/PageTitle';
+import Header2 from '../components/Header2';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 const ServicesPage = () => {
   return (
     <div>
-      <Header 
-        imageLogo={require('../images/New_LG_Logo.svg')}
+      <Header2 
+        title="What We Do"
         image={require('../images/service-header.jpg')}
       />
 
-      <PageTitle
+      {/* <PageTitle
         title="What We Do"
-      />
+      /> */}
 
       {/* <div className="ServiceGroup2">
         <div className="ServiceDesc">

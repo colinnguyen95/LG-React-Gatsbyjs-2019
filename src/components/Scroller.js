@@ -77,7 +77,7 @@ class Scroller extends React.Component {
 
     render() {
         return(
-        <div className="ActionButton">
+        <div>
             <Link activeClass="active" className="action" to="ContactSection" spy={true} smooth={true} offset={50} duration={500}>
                 Get in touch!
             </Link>

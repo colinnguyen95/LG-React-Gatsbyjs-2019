@@ -17,7 +17,7 @@ export const teams = [
       id: 3,
       name: 'Ariana Hohn',
       position: 'Employee',
-      image: 'https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/35142647_10100768804741211_7921992049904058368_n.jpg?_nc_cat=0&oh=d6c466b2acdbf54e8fbbd42a14e959af&oe=5BD30C61',
+      image: 'https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/35142647_10100768804741211_7921992049904058368_n.jpg?_nc_cat=0&oh=bfa94aa27fded2194b257601f8f5e8e5&oe=5BFA9961',
       description: "Lorem ipsum dolor amet fanny pack vaporware mumblecore bitters lo-fi fingerstache beard locavore scenester YOLO tattooed. Sartorial put a bird on it hashtag whatever, echo park lomo wayfarers locavore mustache YOLO microdosing salvia. Paleo cronut +1, semiotics flexitarian franzen kickstarter hot chicken 90's kombucha deep v forage trust fund palo santo disrupt. Aesthetic skateboard la croix letterpress slow-carb kombucha pickled hammock truffaut. Hoodie celiac asymmetrical skateboard shabby chic cardigan street art thundercats sriracha edison bulb brunch narwhal wolf."
     },
     {
@@ -38,7 +38,7 @@ export const teams = [
         id: 6,
         name: 'Michael Elofer',
         position: 'Content Marketing',
-        image: 'https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/35123740_660800144312280_5269509188077223936_o.jpg?_nc_cat=0&oh=30c0eb3554fa8838046e13c67785d02a&oe=5BD5DB36',
+        image: 'https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/35205568_660800140978947_5864142393686622208_n.jpg?_nc_cat=0&oh=ac3c079784c5b7aba51c59b42b604318&oe=5C0342CA',
         description: "Lorem ipsum dolor amet fanny pack vaporware mumblecore bitters lo-fi fingerstache beard locavore scenester YOLO tattooed. Sartorial put a bird on it hashtag whatever, echo park lomo wayfarers locavore mustache YOLO microdosing salvia. Paleo cronut +1, semiotics flexitarian franzen kickstarter hot chicken 90's kombucha deep v forage trust fund palo santo disrupt. Aesthetic skateboard la croix letterpress slow-carb kombucha pickled hammock truffaut. Hoodie celiac asymmetrical skateboard shabby chic cardigan street art thundercats sriracha edison bulb brunch narwhal wolf."
     },
     {
@@ -52,28 +52,28 @@ export const teams = [
         id: 8,
         name: 'Rhea Daughtery',
         position: 'Client Manager',
-        image: 'https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/37913758_705363086522652_9011124081755422720_n.png?_nc_cat=0&oh=d1618a66893f694318ce0d821db26cf7&oe=5C0BCD8A',
+        image: 'https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/37913758_705363086522652_9011124081755422720_n.png?_nc_cat=0&oh=d896b0663ef6c02146106ab1382c2954&oe=5C335A8A',
         description: "Lorem ipsum dolor amet fanny pack vaporware mumblecore bitters lo-fi fingerstache beard locavore scenester YOLO tattooed. Sartorial put a bird on it hashtag whatever, echo park lomo wayfarers locavore mustache YOLO microdosing salvia. Paleo cronut +1, semiotics flexitarian franzen kickstarter hot chicken 90's kombucha deep v forage trust fund palo santo disrupt. Aesthetic skateboard la croix letterpress slow-carb kombucha pickled hammock truffaut. Hoodie celiac asymmetrical skateboard shabby chic cardigan street art thundercats sriracha edison bulb brunch narwhal wolf."
     },
     {
         id: 9,
         name: 'Robin Severson',
         position: 'Designer',
-        image: 'https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/10363382_10154168766525447_20886824358303587_n.jpg?_nc_cat=0&oh=d2f4b2c2217cd191d8b98e1d27d40879&oe=5BD694F7',
+        image: 'https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/10363382_10154168766525447_20886824358303587_n.jpg?_nc_cat=0&oh=4423343dbf5bd3ea877faeed01af8a93&oe=5BFE21F7',
         description: "Lorem ipsum dolor amet fanny pack vaporware mumblecore bitters lo-fi fingerstache beard locavore scenester YOLO tattooed. Sartorial put a bird on it hashtag whatever, echo park lomo wayfarers locavore mustache YOLO microdosing salvia. Paleo cronut +1, semiotics flexitarian franzen kickstarter hot chicken 90's kombucha deep v forage trust fund palo santo disrupt. Aesthetic skateboard la croix letterpress slow-carb kombucha pickled hammock truffaut. Hoodie celiac asymmetrical skateboard shabby chic cardigan street art thundercats sriracha edison bulb brunch narwhal wolf."
     },
     {
         id: 10,
         name: 'Catherine Bonetti',
         position: 'Project Manager',
-        image: 'https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/37196145_693480517710909_8772000841247752192_n.png?_nc_cat=0&oh=11043d8ca13509aefba0e60df2d44749&oe=5C10F911',
+        image: 'https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/37196145_693480517710909_8772000841247752192_n.png?_nc_cat=0&oh=ac138c92e4d6e438085dd2af89038376&oe=5C388611',
         description: "Lorem ipsum dolor amet fanny pack vaporware mumblecore bitters lo-fi fingerstache beard locavore scenester YOLO tattooed. Sartorial put a bird on it hashtag whatever, echo park lomo wayfarers locavore mustache YOLO microdosing salvia. Paleo cronut +1, semiotics flexitarian franzen kickstarter hot chicken 90's kombucha deep v forage trust fund palo santo disrupt. Aesthetic skateboard la croix letterpress slow-carb kombucha pickled hammock truffaut. Hoodie celiac asymmetrical skateboard shabby chic cardigan street art thundercats sriracha edison bulb brunch narwhal wolf."
     },
     {
         id: 11,
         name: 'Tiffany Chau',
         position: 'Marketing Intern',
-        image: 'https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/30727387_633097407082554_4351527046011158528_o.jpg?_nc_cat=0&oh=9ea30538053a01bd05cf99b3ac7bbea6&oe=5BCE180D',
+        image: 'https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/30727387_633097407082554_4351527046011158528_o.jpg?_nc_cat=0&oh=65846fa49cb229036ab9ef239ee08663&oe=5BF5A50D',
         description: "Lorem ipsum dolor amet fanny pack vaporware mumblecore bitters lo-fi fingerstache beard locavore scenester YOLO tattooed. Sartorial put a bird on it hashtag whatever, echo park lomo wayfarers locavore mustache YOLO microdosing salvia. Paleo cronut +1, semiotics flexitarian franzen kickstarter hot chicken 90's kombucha deep v forage trust fund palo santo disrupt. Aesthetic skateboard la croix letterpress slow-carb kombucha pickled hammock truffaut. Hoodie celiac asymmetrical skateboard shabby chic cardigan street art thundercats sriracha edison bulb brunch narwhal wolf."
     }
 

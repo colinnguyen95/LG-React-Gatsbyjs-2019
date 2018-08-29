@@ -62,13 +62,24 @@
             
 .full button, input, textarea{
     width: 100%;
-    padding: 0.3em 0;
+    padding: 0.7em 0;
+    color: white;
+    /* color: #7F7F7F; */
 }
             
 .full button{
+    padding: 10px 0;
     background: #4FC2AA;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.full button:hover {
+    background: #276F5B;
+    box-shadow: 0 10px 20px rgba(0,0,0, .25);
+    transform: translateY(-3px);
 }
                
 .alert{
@@ -82,10 +93,7 @@
 
 @media (min-width: 768px){
     .ContactGroup{
-        display: flex;
-        align-items: center;
         flex-direction: row;
-        justify-content: center;
         height: 400px;
         padding: 50px 50px;
         margin: 50px 0;
@@ -93,8 +101,6 @@
         
     .contact-container{
         height: 100%;
-        width: 100%;
-        display: flex;
         align-items: center;
         flex-direction: row;
         justify-content: space-between;
@@ -102,10 +108,6 @@
             
     .contact-section{
         margin: 0 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
     }
 
     .contact-section p{
@@ -132,12 +134,11 @@
     .ContactGroup form input, .ContactGroup form textarea{
         width: 100%;
         padding: 0.7em;
-        /* border: 1px solid#4FC2AA; */
     }
 
-    /* input::-webkit-input-placeholder {
-        font-size: 18px;
-    } */
+    .ContactGroup form p{
+        margin: 10px 0;
+    }
     
     .full button, input, textarea{
         width: 95%;
@@ -147,12 +148,7 @@
     .full button{
         font-size: 18px;
         width: 100%;
-        background: #4FC2AA;
         border: 0;
-    }
-    
-    .full button:hover, button:focus{
-        background: #2A7C6B;
     }
 }
 
@@ -163,9 +159,5 @@
 
     .contact-container{
         margin: 20px;
-    }
-
-    .ContactGroup form p{
-        margin: 10px 0;
     }
 }
