@@ -9,7 +9,7 @@ const ContactPage = () => {
       <div className="Header" style={{marginBottom: 50+'px'}}>
       <Header2 
         // imageLogo={require('../images/New_LG_Logo.svg')}
-        title="Hello!"
+        title="Hello There!"
         image={require('../images/contact-header.jpg')}
       />
       </div>
