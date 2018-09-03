@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <div>
       <Header2 
-        title="Our Team"
+        title="Who We Are"
         image={require('../images/contact_lg.jpg')}
       />
       

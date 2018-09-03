@@ -29,29 +29,35 @@ const ServicesPage = () => {
       </div>
       
       <div className="ListWrap">
-        <ul className="ServicesList">
-          <li>Branding</li>
-          <li>Collateral Development</li>
-          <li>Content Marketing</li>
-          <li>Cross-Functional Team Leadership</li>
-          <li>Customer Retention Programs</li>
-          <li>Direct-to-Consumer Marketing</li>
-          <li>Educational Webcasts</li>
-          <li>Event/Trade Show Planning</li>
-          <li>Global Marketing</li>
-          <li>Graphic Design</li>
-          <li>Lead Generation (Print/Online)</li>
-          <li>Multi-Media Campaign Management</li>
-          <li>New Product Launch</li>
-          <li>Photography</li>
-          <li>Program Management</li>
-          <li>Practice Marketing</li>
-          <li>Public Relations</li>
-          <li>Social Media Marketing</li>
-          <li>Strategic Planning</li>
-          <li>Video Production (Promotional/Educational)</li>
-          <li>Website Development</li>
-        </ul>
+        <div className="ListContainer">
+          <ul className="ServicesList">
+            <li>Branding</li>
+            <li>Collateral Development</li>
+            <li>Content Marketing</li>
+            <li>Cross-Functional Team Leadership</li>
+            <li>Customer Retention Programs</li>
+            <li>Direct-to-Consumer Marketing</li>
+            <li>Educational Webcasts</li>
+          </ul>
+          <ul className="ServicesList">
+            <li>Event/Trade Show Planning</li>
+            <li>Global Marketing</li>
+            <li>Graphic Design</li>
+            <li>Lead Generation (Print/Online)</li>
+            <li>Multi-Media Campaign Management</li>
+            <li>New Product Launch</li>
+            <li>Photography</li>
+          </ul>
+          <ul className="ServicesList">
+            <li>Program Management</li>
+            <li>Practice Marketing</li>
+            <li>Public Relations</li>
+            <li>Social Media Marketing</li>
+            <li>Strategic Planning</li>
+            <li>Video Production</li>
+            <li>Website Development</li>
+          </ul>
+        </div>
       </div>
 
       <Contact />
