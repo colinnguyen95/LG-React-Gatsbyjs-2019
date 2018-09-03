@@ -1,5 +1,4 @@
 import React from 'react'
-import './Header.css'
 import Scroller from './Scroller'
 import styled from 'styled-components'
 
@@ -53,7 +52,7 @@ const Parallax = styled.div`
 
 `
 
-const Header = props => (
+const Header1 = props => (
 	// <div className="Header">
     //     <div className="parallax">
     //         <img className="logo" src={props.imageLogo} />
@@ -70,4 +69,4 @@ const Header = props => (
     </HeaderGroup>
 )
 
-export default Header
+export default Header1
