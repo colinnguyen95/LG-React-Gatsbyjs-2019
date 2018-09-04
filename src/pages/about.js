@@ -1,5 +1,6 @@
 import React from 'react'
-import Header2 from '../components/Header2';
+import Header1 from '../components/Header1';
+// import Header2 from '../components/Header2';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import CardList from '../components/CardList';
@@ -7,7 +8,7 @@ import CardList from '../components/CardList';
 const AboutPage = () => {
   return (
     <div>
-      <Header2 
+      <Header1 
         title="Who We Are"
         image={require('../images/contact_lg.jpg')}
       />

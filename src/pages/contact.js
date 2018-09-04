@@ -1,5 +1,5 @@
 import React from 'react'
-import Header2 from '../components/Header2';
+import Header1 from '../components/Header1';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
@@ -7,7 +7,7 @@ const ContactPage = () => {
   return (
     <div>
       <div className="Header" style={{marginBottom: 50+'px'}}>
-      <Header2 
+      <Header1 
         // imageLogo={require('../images/New_LG_Logo.svg')}
         title="Hello There!"
         image={require('../images/contact-header.jpg')}

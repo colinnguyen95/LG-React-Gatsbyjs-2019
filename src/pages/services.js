@@ -1,12 +1,12 @@
 import React from 'react'
-import Header2 from '../components/Header2';
+import Header1 from '../components/Header1';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 
 const ServicesPage = () => {
   return (
     <div>
-      <Header2 
+      <Header1 
         title="What We Do"
         image={require('../images/service-header.jpg')}
       />
