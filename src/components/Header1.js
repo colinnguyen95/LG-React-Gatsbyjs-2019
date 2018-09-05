@@ -43,9 +43,9 @@ const HeaderGroup = styled.div`
 const HeaderLogo = styled.img`
     ${'' /* height: 170px;
     width: 100%;
-    margin: 0 20px; */}
+    margin: 0 20px;
     opacity: 0;
-    animation: HeroAnimation 2s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+    animation: HeroAnimation 2s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1); */}
 `
 
 const Header1 = props => (

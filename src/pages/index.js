@@ -8,7 +8,9 @@ import Footer from '../components/Footer';
 const divStyle = {
   width: '100%',
   height: '170px',
-  margin: '0 20px'
+  margin: '0 20px',
+  opacity: '0',
+  animation: 'HeroAnimation 2s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1)'
 };
 
 const IndexPage = () => (
