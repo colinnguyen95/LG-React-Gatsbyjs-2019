@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-
 import Nav from '../components/nav'
 import Contact from '../components/Contact';
 import Footer from '../components/Footer'

@@ -2,7 +2,6 @@ import React from 'react'
 import Header1 from '../components/Header1';
 import Goals from '../components/Goals';
 import Work from '../components/Work';
-import Contact from '../components/Contact';
 
 const divStyle = {
   width: '100%',

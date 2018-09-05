@@ -17,7 +17,6 @@ body {
   text-align: center;
   box-sizing: border-box;
   padding: 20px 50px;
-  /* background: #4FC2AA; */
   color: #7F7F7F;
   font-size: 18px;
   text-align: center;
@@ -25,51 +24,34 @@ body {
   line-height: 1.6;
   border-radius: 20px;
   border: 1px solid #4FC2AA;
-  /* box-shadow: 8px 8px 20px 0px rgba(0,0,0,0.4); */
-}
-
-/* .t{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-.ListWrap{
-  display: flex;
-  justify-content: space-between;
-  align-items: space-between;
-  /* width: 1000px; */
-  width: 100%;
-  background: pink;
-}
-
-.ListContainer{
-  display: flex;
-  justify-content: center;
-  margin: auto;
 }
 
 .ServicesList{
-  /* box-sizing: border-box; */
-  padding: 0 50px;
-  /* margin: 0 20px; */
-  /* margin: 50px 0; */
-  background: blue;
-  /* height: 450px; */
-  /* width: 100%; */
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-  align-content: space-between;
+  justify-content: center;
   line-height: 50px;
+  width: 100%;
+}
+
+.Container{
+  display: flex;
+  width: 90%;
+  justify-content: center;
+}
+
+.ServicesList ul{
+  width: 100%;
+  margin: 0;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
 }
 
 .ServicesList li{
-  /* padding: 0;
-  margin: 0; */
-  /* list-style: none; */
   color: #7F7F7F;
   font-weight: lighter;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @keyframes HeroAnimation {
@@ -92,8 +74,9 @@ body {
     margin: 0px;
   }
 
-  .ListContainer{
+  .Container{
     flex-direction: column;
+    margin: 0 10px;
   }
   /* .ServicesList{
     margin-left: 20px;
@@ -106,21 +89,21 @@ body {
   } */
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-}
-
-/* @media (min-width: 768px) and (max-width: 1024px) {
-  .ServicesList{
-    margin-left: 20px;
-    width: 768px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-between;
-    line-height: 60px;
+/* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .ServicesList li{
+    font-size: 8px;
   }
 } */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* .Container{
+    justify-content: space-between;
+  } */
+  .ServicesList li{
+    line-height: 40px;
+    font-size: 14px;
+  }
+}
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   body{

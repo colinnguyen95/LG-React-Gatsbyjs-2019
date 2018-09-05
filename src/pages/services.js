@@ -25,10 +25,9 @@ const ServicesPage = () => {
       <div className="ServiceDesc">
         <p>Our 30+ years of combined experience in medical device marketing and a talent-diverse team bring a personalized, deadline-sensitive and flexible approach to a wide range of services.</p>
       </div>
-      
-      <div className="ListWrap">
-        <div className="ListContainer">
-          <ul className="ServicesList">
+      <div className="ServicesList">
+        <div className="Container">
+          <ul>
             <li>Branding</li>
             <li>Collateral Development</li>
             <li>Content Marketing</li>
@@ -37,7 +36,7 @@ const ServicesPage = () => {
             <li>Direct-to-Consumer Marketing</li>
             <li>Educational Webcasts</li>
           </ul>
-          <ul className="ServicesList">
+          <ul>
             <li>Event/Trade Show Planning</li>
             <li>Global Marketing</li>
             <li>Graphic Design</li>
@@ -46,7 +45,7 @@ const ServicesPage = () => {
             <li>New Product Launch</li>
             <li>Photography</li>
           </ul>
-          <ul className="ServicesList">
+          <ul>
             <li>Program Management</li>
             <li>Practice Marketing</li>
             <li>Public Relations</li>

@@ -49,13 +49,6 @@ const HeaderLogo = styled.img`
 `
 
 const Header1 = props => (
-	// <div className="Header">
-    //     <div className="parallax">
-    //         <img className="logo" src={props.imageLogo} />
-    //         <img src={props.image} />
-    //     </div>
-    // </div>
-    
     <HeaderGroup image={props.image}>
         <HeaderLogo src={props.imageLogo} style={props.style}/>
         <PageTitle title={props.title} />
