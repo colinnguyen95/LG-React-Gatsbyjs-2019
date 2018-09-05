@@ -1,7 +1,5 @@
 import React from 'react'
 import Header1 from '../components/Header1';
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
 
 const ServicesPage = () => {
   return (
@@ -59,13 +57,6 @@ const ServicesPage = () => {
           </ul>
         </div>
       </div>
-
-      <Contact />
-
-      <Footer />
-
-
-    
     </div>
   )
 }

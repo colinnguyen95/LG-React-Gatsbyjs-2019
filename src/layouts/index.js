@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Nav from '../components/nav'
+import Contact from '../components/Contact';
+import Footer from '../components/Footer'
 import './index.css'
 
 const Layout = ({ children, data }) => (
@@ -16,6 +18,8 @@ const Layout = ({ children, data }) => (
     />
     <Nav />
     {children()}
+    <Contact />
+    <Footer />
   </div>
 )
 

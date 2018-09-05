@@ -3,7 +3,6 @@ import Header1 from '../components/Header1';
 import Goals from '../components/Goals';
 import Work from '../components/Work';
 import Contact from '../components/Contact';
-import Footer from '../components/Footer';
 
 const divStyle = {
   width: '100%',
@@ -24,10 +23,6 @@ const IndexPage = () => (
     <Work />
     
     <Goals />
-
-    <Contact />
-
-    <Footer />
   </div>
 )
 

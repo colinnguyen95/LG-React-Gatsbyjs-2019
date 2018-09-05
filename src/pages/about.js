@@ -1,8 +1,5 @@
 import React from 'react'
 import Header1 from '../components/Header1';
-// import Header2 from '../components/Header2';
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
 import CardList from '../components/CardList';
 
 const AboutPage = () => {
@@ -28,11 +25,6 @@ const AboutPage = () => {
         }
       </div> */}
       <CardList />
-
-      <Contact />
-
-      <Footer />
-
     </div>
   )
 }

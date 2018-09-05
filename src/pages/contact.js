@@ -1,7 +1,5 @@
 import React from 'react'
 import Header1 from '../components/Header1';
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
 
 const ContactPage = () => {
   return (
@@ -13,11 +11,6 @@ const ContactPage = () => {
         image={require('../images/contact-header.jpg')}
       />
       </div>
-
-      <Contact />
-
-      <Footer />
-      
     </div>
   )
 }
