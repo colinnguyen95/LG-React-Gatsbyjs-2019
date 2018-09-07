@@ -4,7 +4,7 @@ export const teams = [
       name: 'Lynh Severson',
       position: 'Co-Founder',
       image: 'https://drh2acu5z204m.cloudfront.net/items/2W1s2W3Z2d043q0o2612/LG-Lynh.jpg?X-CloudApp-Visitor-Id=3116428&v=0a1c1e00',
-      description: "Lynh brings over 15 years of experience in building brand awareness across a multi-product portfolio ranging from Ophthalmology to tumor therapy solutions. Quality time spent with family, friends and the relationships built within LG Marketing is what drives her. Ask her about her work and she'll tell you \"the most effective way to do it, is to do it\" -Amelia Earhart"
+      description: "Lynh brings over 15 years of experience in building brand awareness across a multi-product portfolio ranging from Ophthalmology to tumor therapy solutions. Quality time spent with family, friends and the relationships built within LG Marketing is what drives her. Ask her about her work and she'll tell you \"the most effective way to do it, is to do it\" -Amelia Earhart." 
     },
     {
       id: 2,

@@ -1,15 +1,30 @@
+.AboutSection{
+    margin-top: 80px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.AboutContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.author{
+    font-size: 10px;
+}
+
 .panel-body1 {
     box-sizing: border-box;
-    /* height: 220px; */
     border-top: 1px solid #787975;
     border-bottom: 1px solid #787975;
     padding: 20px 0;
-    /* border: none !important; */
-    /* margin-bottom: 20px; */
     font-size: 18px;
     text-align: justify;
     text-justify: inter-word;
-    margin: 0 5px;
+    margin: 20px 80px;
+    line-height: 1.5;
 }
 
 .aboutTitleWrap{
@@ -30,28 +45,33 @@
   }
 
 .CardGroup1{
-    margin: 0 50px;
-    margin-top: 20px;
-    /* transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); */
-    /* width: 50%; */
-    width: 400px;
+    width: 50%;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    margin-bottom: 20px;
 }
-
-/* .CardGroup1:hover {
-    transform: scale(1.1, 1.1);
-} */
 
 .CardGroup1 h3{
     font-size: 18px;
 }
 
+.CardGroup1 h6{
+    font-size: 16px;
+}
+
 .CardGroup1 h3,h6 {
     color: #787975;
     margin: 0;
+}
+
+.email{
+    font-weight: lighter;
+    margin-top: 10px;
+    color:  #4FC2AA;
+}
+
+.email a{
+    color:  #4FC2AA;
+    text-decoration: none;
 }
 
 .CardWrap{
@@ -75,67 +95,51 @@
     flex-direction: row;
 }
 
-/* .CardGroup:nth-child(6){
-    background: blue;
-    width: 100%;
-    flex-basis: 100%;
-} */
-
-/* .Card:hover > .overlay {
-    width:100%;
-    height:100%;
-    background-color:#000;
-    opacity:0.6;
-    z-index: 100;
-} */
-
 .CardGroup1 img {
     position: absolute;
     top: 0;
     height: 110%;
     z-index: -1;
-    /* transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1); */
 }
 
-/* .CardGroup1:hover img {
-    transform: translateY(-15px);
-    cursor: pointer; 
-} */
-
-/* .CardGroup:focus {
-    margin-bottom: 200px;
-} */
-
-@media (min-width: 320px) and (max-width: 480px) {
-    .CardGroup1{
-        width: 100%;
+@media (min-width: 320px) and (max-width: 767px) {
+    .AboutSection{
+        margin: 0px;
+    }
+    .AboutContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .panel .panel-body {
+    .CardGroup1{
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .panel-body1 {
         font-size: 14px;
-        margin: 0 25px;
+        margin: 20px;
     }
 
     .Card1{
-        width: 200px;
-        height: 300px;
+        width: 240px;
+        height: 340px;
     }
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
-    .CardGroup1{
-        width: 100%;
+@media (min-width: 768px) and (max-width: 1023px) {
+    .panel-body1 {
+        margin: 20px 40px;
+    }
+
+    .Card1{
+        width: 260px;
+        height: 360px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
-    
-}
-
-@media (min-width: 768px) {
-    /* .CardGroup{
-        width: 50%;
-    } */
+@media (min-width: 1024px) {
     .Card1{
         width: 320px;
         height: 450px;

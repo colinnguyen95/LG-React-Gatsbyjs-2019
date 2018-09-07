@@ -5,6 +5,7 @@ import Nav from '../components/nav'
 import Contact from '../components/Contact';
 import Footer from '../components/Footer'
 import './index.css'
+import FavLG from '../images/FavLG.png'
 
 const Layout = ({ children, data }) => (
   <div>
@@ -14,6 +15,9 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: data.site.siteMetadata.description },
         { name: 'keywords', content: data.site.siteMetadata.keywords },
       ]}
+      link={[
+      { rel: 'shortcut icon', type: 'image/png', href: `${FavLG}` }
+  ]}
     />
     <Nav />
     {children()}
