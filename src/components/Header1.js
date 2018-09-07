@@ -10,7 +10,7 @@ const HeaderGroup = styled.div`
         rgba(20,20,20, .6)),
         url(${props => props.image});
     background-position: top center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 550px;
     position: relative;
@@ -36,9 +36,9 @@ const HeaderGroup = styled.div`
         height: 500px;
     }
 
-    @media (min-width: 1025px) {
+    ${'' /* @media (min-width: 1025px) {
         background-attachment: fixed;
-      }
+    } */}
 `
 const HeaderLogo = styled.img`
     ${'' /* height: 170px;

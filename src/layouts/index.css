@@ -54,6 +54,29 @@ body {
   font-size: 16px;
 }
 
+/* .Card1{
+  z-index: 1;
+  margin: 20px 0;
+  width: 250px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.CardGroup1 img {
+  position: absolute;
+  top: 0;
+  height: 110%;
+  z-index: -1;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+} */
+
 @keyframes HeroAnimation {
   0% {
       opacity: 0;
@@ -107,7 +130,7 @@ body {
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   body{
-    margin: 0 150px;
+    margin: 0 80px;
   }
 }
 
