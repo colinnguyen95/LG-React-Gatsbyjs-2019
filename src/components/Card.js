@@ -31,7 +31,6 @@ class Card extends React.Component {
                     <h3>{name}, </h3>
                     <h6>{position}</h6>
                     <div className="Card">
-                        <div className="overlay"></div>
                         <img alt="team" src={image}/>
                     </div>
                     <div className="panel-collapse" style={{height: currentHeight+'px'}}>
