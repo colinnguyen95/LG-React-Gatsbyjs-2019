@@ -1,12 +1,12 @@
 import React from 'react'
-import PageTitle from './PageTitle'
-import Scroller from './Scroller'
+import PageTitle from './PageTitle/PageTitle'
+import Scroller from './Scroller/Scroller'
 import styled from 'styled-components'
 
 const HeaderGroup = styled.div`
     background: linear-gradient(
         rgba(20,20,20, .57),
-        rgba(20,20,20, .93),
+        rgba(20,20,20, .70),
         rgba(20,20,20, .6)),
         url(${props => props.image});
     background-position: top center;

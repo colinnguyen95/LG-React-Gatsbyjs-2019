@@ -128,7 +128,8 @@
     }
 
     .NavScrolled{
-        background: rgba(120, 121, 117, 0.8);
+        background: rgba(120, 121, 117, 0.93);
+        /* background: blue; */
         backdrop-filter: blur(20px);
         padding: 15px 0;
     }

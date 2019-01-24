@@ -1,7 +1,7 @@
 import React from 'react'
 import Header1 from '../components/Header1';
-import Goals from '../components/Goals';
-import Work from '../components/Work';
+import Goals from '../components/Goals/Goals';
+import Work from '../components/Work/Work';
 
 const divStyle = {
   width: '100%',

@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import Nav from '../components/nav'
-import Contact from '../components/Contact';
-import Footer from '../components/Footer'
+import Nav from '../components/nav/nav'
+import Contact from '../components/Contact/Contact';
+import Footer from '../components/Footer/Footer'
 import './index.css'
 import FavLG from '../images/FavLG.png'
 

@@ -76,7 +76,7 @@
 .bottom .four{
     height: 400px;
     /* background: url(../images/about-resize.jpg) center center; */
-    background: url(../images/lg_about.jpg) center center;
+    background: url(../../images/lg_about.jpg) center center;
     background-size: cover;
     background-position: 0 20%;
 }
@@ -121,13 +121,13 @@
             
     .two{
         flex-basis: 25%;
-        background: url(../images/lg_about_2.1.jpg) center center;
+        background: url(../../images/lg_about_2.1.jpg) center center;
         background-size: cover;
     }
 
     .three{
         flex-basis: 25%;
-        background: url(../images/lg_about_3.jpg) center center;
+        background: url(../../images/lg_about_3.jpg) center center;
         background-size: cover;
     }
       

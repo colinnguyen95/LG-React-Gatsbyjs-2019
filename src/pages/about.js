@@ -1,6 +1,6 @@
 import React from 'react'
 import Header1 from '../components/Header1';
-import AboutCard from '../components/AboutCard';
+import AboutCard from '../components/About/AboutCard';
 // import CardList from '../components/CardList';
 
 const AboutPage = () => {

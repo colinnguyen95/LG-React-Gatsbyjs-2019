@@ -1,27 +1,30 @@
 .FooterGroup{
+    display: flex;
+    align-items: center;
     background: #4FC2AA;
-    margin: 50px 0;
-    margin-bottom: 0;
-    height: 150px;
+    /* margin: 50px 0; */
+    /* margin-bottom: 0; */
+    height: 100%;
     padding: 20px;
     color: white;
     font-weight: lighter;
 }
     
 .FooterGroup p{
+    padding-left: 25px;
     font-size: 12px;
     margin: 0.3em;
 }
 
 @media (min-width: 1025px) {
    .FooterGroup{
-        margin-top: 50px;
-        height: 160px;
-        padding: 50px;
+        /* margin-top: 20px; */
+        height: 100%;
+        padding: 25px;
    }
         
    .FooterGroup p{
-        font-size: 18px;
+        font-size: 13px;
     }
 }
 

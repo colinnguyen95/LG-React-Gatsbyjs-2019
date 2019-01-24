@@ -37,6 +37,13 @@
     height: 100px;
 }
 
+@media(min-width: 1025px){
+    .goal-item{
+        flex-basis: 22%;
+        padding: 0 50px;
+    }
+}
+
 @media(min-width: 768px){
     .GoalsGroup{
         display: flex;
@@ -75,13 +82,6 @@
     .goal-item img{
         width: 130px;
         height: 130px;
-    }
-}
-
-@media(min-width: 1025px){
-    .goal-item{
-        flex-basis: 22%;
-        padding: 0 50px;
     }
 }
 
