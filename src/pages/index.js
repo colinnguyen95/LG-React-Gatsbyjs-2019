@@ -20,9 +20,50 @@ const IndexPage = () => (
     />
   
     <Work />
+
     
     <Goals />
   </div>
 )
 
 export default IndexPage
+
+// class IndexPage extends React.Component {
+//   constructor(props) {
+//       super(props)
+
+//       this.state = {
+//           loaded: false
+//       }
+//   }
+
+//   onLoad(feedItem) {
+//     this.setState(({ loadedItems }) => {
+//       return { loadedItems: loadedItems.concat(feedItem) }
+//     })
+//   }
+
+//   // componentDidMount() {
+//   //     window.addEventListener('scroll', 
+//   //     this.handleScroll)
+//   // }
+//   render() {
+//     const { source, placeholderColor } = this.props
+//     return(
+//       <div>
+//         <Header1 
+//           imageLogo={require('../images/New_LG_Logo.svg')}
+//           style={divStyle}
+//           image={require('../images/header_LG.jpg')}
+//         />
+      
+//         <Work />
+
+        
+//         <Goals />
+//       </div>
+//     )
+//   }
+// }
+
+// export default IndexPage
