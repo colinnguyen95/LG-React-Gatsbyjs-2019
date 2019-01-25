@@ -1,7 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import Nav from '../components/Nav/Nav'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import Nav from '../components/Nav/Nav.js';
 import Contact from '../components/Contact/Contact';
 import Footer from '../components/Footer/Footer'
 import './index.css'
