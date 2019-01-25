@@ -18,6 +18,11 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+.address a{
+    text-decoration: none !important;
+    color: white !important;
+}
     
 .FooterGroup p{
     padding-left: 25px;

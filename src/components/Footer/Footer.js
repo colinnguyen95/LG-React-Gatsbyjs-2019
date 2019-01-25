@@ -12,7 +12,7 @@ const Footer = props => (
             <p>3031 Tish Way</p>
             <p>110 Plaza West</p>
             <p>San Jose, CA 95128</p>
-            <p>(408) 320 - 7643 | info@lgmarketing.me</p>
+            <p><a href="tel:408-320-7643">(408) 320 - 7643</a> | <a href="mailto:info@lgmarketing.me">info@lgmarketing.me</a></p>
             <p className="copyright">&copy; 2019 by LG Marketing LLC</p>
         </div>
     </div>

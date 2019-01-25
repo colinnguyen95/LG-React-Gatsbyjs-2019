@@ -8,7 +8,7 @@ const Contact = props => (
                 <p className="brand">Looking to get in touch?</p>
                 <p className="brand">We can't wait to hear from you!</p>
                 <br/>
-                <p className="phone">Phone: (408) 320 - 7643</p>
+                <p className="phone"><a href="tel:408-320-7643">Phone: (408) 320 - 7643</a></p>
                 <p className="email">info@lgmarketing.me</p>
                 <div className="alert">Your message has been sent</div>
             </div>
