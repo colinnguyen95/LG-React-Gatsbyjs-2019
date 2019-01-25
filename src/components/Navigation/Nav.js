@@ -1,6 +1,7 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import './Nav.css'
+import React from 'react';
+import Link from 'gatsby-link';
+import './Nav.css';
+import NavLogo from '../../images/BW_svg';
 
 class Nav extends React.Component {
     constructor(props) {
@@ -41,6 +42,10 @@ class Nav extends React.Component {
         return(
         <div className={this.state.hasScrolled ? "nav-section NavScrolled" : "nav-section"}>
             <div className="nav-container">
+                <Link exact to="/" activeClassName="active">
+                    {/* <img className="navLogo" src={require("../../images/BW_Logo.svg")} /> */}
+                    <NavLogo />
+                </Link>
                 <nav className={`site-nav ${isExpanded ? 'site-nav--open' : ""}`} ref="inner">
                     <ul>
                         <li onClick={(e) => this.handleToggle(e)}>

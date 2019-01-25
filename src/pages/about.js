@@ -8,7 +8,7 @@ const AboutPage = () => {
     <div>
       <Header1 
         title="Who We Are"
-        image={require('../images/contact_lg.jpg')}
+        image={require('../images/about_LG.jpg')}
       />
       <AboutCard />
       {/* Use CardList Component when LG team gives green light */}
