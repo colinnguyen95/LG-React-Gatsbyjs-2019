@@ -7,13 +7,13 @@ const Footer = props => (
 
         </div> */}
         
-        <img src={require("../../images/Footer_Logo.svg")} />
+        {/* <img src={require("../../images/Footer_Logo.svg")} /> */}
         <div className="address">
-            <p>Address: 3031 Tish Way</p>
+            <p>3031 Tish Way</p>
             <p>110 Plaza West</p>
-            <p>San Jose CA 95128</p>
-            <p>Phone: (408) 320 - 7643 | Email: info@lgmarketing.me</p>
-            <p className="copyright">&copy; 2018 by LG Marketing LLC</p>
+            <p>San Jose, CA 95128</p>
+            <p>(408) 320 - 7643 | info@lgmarketing.me</p>
+            <p className="copyright">&copy; 2019 by LG Marketing LLC</p>
         </div>
     </div>
 )

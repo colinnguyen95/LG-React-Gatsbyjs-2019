@@ -29,7 +29,7 @@ const AboutCard = () => {
                     </div>
                     <div className="panel-collapse">
                         <div className="panel-body1">
-                        Lynh brings over 15 years of experience in building brand awareness across a multi-product portfolio ranging from Ophthalmology to tumor therapy solutions. Quality time spent with family, friends and the relationships built within LG Marketing is what drives her. Ask her about her work and she'll tell you "the most effective way to do it, is to do it" <span className="author">-Amelia Earhart</span>
+                            <p>Lynh brings over 15 years of experience in building brand awareness across a multi-product portfolio ranging from Ophthalmology to tumor therapy solutions. Quality time spent with family, friends and the relationships built within LG Marketing is what drives her. Ask her about her work and she'll tell you "the most effective way to do it, is to do it" <span className="author">-Amelia Earhart</span></p>
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ const AboutCard = () => {
                     </div>
                     <div className="panel-collapse">
                         <div className="panel-body1">
-                        The “G” in LG Marketing, Gina Jackman, has spent 15 years in the marketing profession with more than half of those years dedicated to Align Technology (the makers of Invisalign® clear aligners). Her life mantra is simple: Wake up. Work hard. Have fun. Be kind. Repeat. For a fun fact ask her where she got engaged. 
+                            <p>The “G” in LG Marketing, Gina Jackman, has spent 15 years in the marketing profession with more than half of those years dedicated to Align Technology (the makers of Invisalign® clear aligners). Her life mantra is simple: Wake up. Work hard. Have fun. Be kind. Repeat. For a fun fact ask her where she got engaged.</p> 
                         </div>
                     </div>
                 </div>

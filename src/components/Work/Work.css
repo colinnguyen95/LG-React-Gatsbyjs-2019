@@ -85,7 +85,7 @@
     .top{
         display: flex;
         flex-direction: row;
-        height: 400px;
+        /* height: 400px; */
     }
             
     .five{
@@ -176,11 +176,6 @@
         background-size: cover;
         background-position: 0 35%;
     }
-}
-
-
-@media (min-width: 1025px){
-    
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
