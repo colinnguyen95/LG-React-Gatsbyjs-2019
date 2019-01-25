@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import Nav from '../components/Nav/Nav.js';
+import Nav from '../components/Navigation/Nav';
 import Contact from '../components/Contact/Contact';
-import Footer from '../components/Footer/Footer'
-import './index.css'
-import FavLG from '../images/FavLG.png'
+import Footer from '../components/Footer/Footer';
+import './index.css';
+import FavLG from '../images/FavLG.png';
 
 const Layout = ({ children, data }) => (
   <div>
