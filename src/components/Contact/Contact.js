@@ -13,7 +13,7 @@ const Contact = props => (
                 <div className="alert">Your message has been sent</div>
             </div>
             
-            <form id="contactForm">
+            <form id="contactForm" method="POST" netlify-honeypot="bot-field" data-netlify="true">
                 <p>
                     <input type="text" name="name" placeholder="Name" id="name" required/>
                 </p>
