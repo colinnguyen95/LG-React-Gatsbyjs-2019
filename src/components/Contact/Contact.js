@@ -18,10 +18,10 @@ const Contact = props => (
                     <input type="text" name="name" placeholder="Name" id="name" required/>
                 </p>
                 <p>
-                    <input type="email" name="name" placeholder="Email" id="email" required/>
+                    <input type="email" name="email" placeholder="Email" id="email" required/>
                 </p>
                 <p>
-                    <input type="text" name="name" placeholder="Subject" id="subject"/>
+                    <input type="text" name="subject" placeholder="Subject" id="subject"/>
                 </p>
                 <p className="full">
                     <textarea name="message" rows="5" placeholder="Message" id="message"></textarea>
