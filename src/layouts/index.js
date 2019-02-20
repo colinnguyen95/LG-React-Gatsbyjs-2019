@@ -8,7 +8,7 @@ import './index.css';
 import FavLG from '../images/FavLG.png';
 
 const Layout = ({ children, data }) => (
-  <div>
+  <div className="mainContainer">
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
