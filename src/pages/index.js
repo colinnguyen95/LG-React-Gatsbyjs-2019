@@ -5,26 +5,28 @@ import Work from '../components/Work/Work';
 
 const divStyle = {
   width: '100%',
-  height: '170px',
+  height: '180px',
   margin: '0 20px',
   opacity: '0',
   animation: 'HeroAnimation 2s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1)'
 };
 
-const IndexPage = () => (
-  <div>
-    <Header1 
-      imageLogo={require('../images/New_LG_Logo.svg')}
-      style={divStyle}
-      image={require('../images/header_LG.jpg')}
-    />
-  
-    <Work />
-
+const IndexPage = () => {
+  return(
+    <div>
+      <Header1 
+        imageLogo={require('../images/New_LG_Logo.svg')}
+        style={divStyle}
+        image={require('../images/header_LG.jpg')}
+      />
     
-    <Goals />
-  </div>
-)
+      <Work />
+
+      
+      <Goals />
+    </div>
+  )
+}
 
 export default IndexPage
 
