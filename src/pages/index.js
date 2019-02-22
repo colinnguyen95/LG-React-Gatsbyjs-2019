@@ -17,7 +17,7 @@ const IndexPage = () => {
       <Header1 
         imageLogo={require('../images/New_LG_Logo.svg')}
         style={divStyle}
-        image={require('../images/header_LG.jpg')}
+        // image={require('../images/header_LG.jpg')}
       />
     
       <Work />
