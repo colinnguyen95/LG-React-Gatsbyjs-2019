@@ -1,4 +1,5 @@
 .GoalsGroup{
+    /* overflow: hidden; */
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -7,6 +8,7 @@
     /* margin: 50px 10px; */
     height: 100%;
     text-align: center;
+    position: relative;
 }
 
 .goal-item{
@@ -21,6 +23,8 @@
     line-height: 1.6;
     border-radius: 20px;
     box-shadow: 8px 8px 20px 0px rgba(0,0,0,0.4);
+    position: relative;
+    z-index: 999;
 }
     
 .goal-item h2{
@@ -37,7 +41,13 @@
     height: 100px;
 }
 
+
+
 @media(min-width: 1025px){
+    .GoalsGroup{
+        overflow: visible;
+    }
+
     .goal-item{
         flex-basis: 22%;
         padding: 0 50px;
@@ -90,16 +100,17 @@
         margin: 0 20px;
         margin-top: 20px;
     }
-  }
+}
   
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
+
+@media (min-width: 320px) and (max-width: 480px) {
     .GoalsGroup{
         margin: 0 20px;
         margin-top: 20px;
     }
   }
+  

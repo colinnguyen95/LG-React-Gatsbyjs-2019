@@ -123,7 +123,7 @@
 @media (min-width: 1025px){
     .nav-section{
         position: fixed;
-        z-index: 100;
+        z-index: 9999;
         left: 0;
         right: 0;
         top: 0;

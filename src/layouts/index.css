@@ -16,10 +16,9 @@ body {
 
 .mainContainer {
   min-height: 100vh; 
-  overflow: hidden;
   display: block;
   position: relative;
-  padding-bottom: 100px; 
+  padding-bottom: 150px; 
 }
 
 a[href^="tel"] {
@@ -139,6 +138,11 @@ a[href^="tel"] {
   /* .Container{
     justify-content: space-between;
   } */
+
+  .mainContainer {
+    padding-bottom: 60px; 
+  }
+
   .ServicesList li{
     line-height: 40px;
     font-size: 14px;
@@ -149,11 +153,19 @@ a[href^="tel"] {
   body{
     margin: 0 80px;
   }
+
+  .mainContainer {
+    padding-bottom: 70px; 
+  }
 }
 
 @media (min-width: 1281px) {
   body{
     margin: 0 auto;
+  }
+
+  .mainContainer {
+    padding-bottom: 80px; 
   }
 }
 
