@@ -1,5 +1,5 @@
 .WorkGroup{
-    margin-top: 50px;
+    margin-top: 50px; 
 }
 
 .top{
@@ -79,6 +79,24 @@
     background: url(../../images/lg_about.jpg) center center;
     background-size: cover;
     background-position: 0 20%;
+}
+
+.workBottom{
+    display: flex;
+}
+
+.work2{
+    height: 400px;
+    flex-basis: 50%;
+    background: url(../../images/lg_about_2.1.jpg) center center;
+    background-size: cover;
+}
+
+.work3{
+    height: 400px;
+    flex-basis: 50%;
+    background: url(../../images/lg_about_3.jpg) center center;
+    background-size: cover;
 }
 
 @media (min-width: 768px) {    
@@ -175,6 +193,14 @@
         /* background: url(../images/about-resize.jpg) center center; */
         background-size: cover;
         background-position: 0 35%;
+    }
+
+    .work2{
+        display: none;
+    }
+
+    .work3{
+        display: none;
     }
 }
 

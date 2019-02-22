@@ -30,6 +30,10 @@ const Work = props => (
                     importantly unparalleled marketing support.</p> 
                 </div>
             </div>
+            <div className="workBottom">
+                <div className="item small work2"></div>
+                <div className="item small work3"></div>
+            </div>
         </div>
     </div>
 )

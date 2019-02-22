@@ -61,8 +61,8 @@
 }
             
 .full button, input, textarea{
-    width: 100%;
-    padding: 0.7em 0;
+    /* width: 100%; */
+    padding: 0.7em;
     color: white;
     /* color: #7F7F7F; */
 }
