@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link } from "gatsby";
 import './Nav.css';
 import NavLogo from '../../images/BW_svg';
 
@@ -42,29 +42,29 @@ class Nav extends React.Component {
         return(
         <div className={this.state.hasScrolled ? "nav-section NavScrolled" : "nav-section"}>
             <div className="nav-container">
-                <Link exact to="/" activeClassName="active">
+                <Link  to="/" activeClassName="active">
                     {/* <img className="navLogo" src={require("../../images/BW_Logo.svg")} /> */}
                     <NavLogo />
                 </Link>
                 <nav className={`site-nav ${isExpanded ? 'site-nav--open' : ""}`} ref="inner">
                     <ul>
                         <li onClick={(e) => this.handleToggle(e)}>
-                            <Link exact to="/" activeClassName="active">
+                            <Link to="/" activeClassName="active">
                                 Home
                             </Link>
                         </li>
                         <li onClick={(e) => this.handleToggle(e)}>
-                            <Link exact to="/services" activeClassName="active">
+                            <Link to="/services" activeClassName="active">
                                 Services
                             </Link>
                         </li>
                         <li onClick={(e) => this.handleToggle(e)}>
-                            <Link exact to="/about" activeClassName="active">
+                            <Link to="/about" activeClassName="active">
                                 About
                             </Link>
                         </li>
                         <li onClick={(e) => this.handleToggle(e)}>
-                            <Link exact to="/contact" activeClassName="active">
+                            <Link to="/contact" activeClassName="active">
                                 Contact
                             </Link>
                         </li>

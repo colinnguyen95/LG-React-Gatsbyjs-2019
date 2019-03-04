@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../components/Layout';
 import Header1 from '../components/Header1';
 
 const ServicesPage = () => {
   return (
-    <div>
+    <Layout>
       <Header1 
         title="What We Do"
         image={require('../images/service-header.jpg')}
@@ -56,7 +57,7 @@ const ServicesPage = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </Layout>
   )
 }
 

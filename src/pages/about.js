@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../components/Layout';
 import Header1 from '../components/Header1';
 import AboutCard from '../components/About/AboutCard';
 // import CardList from '../components/CardList';
 
 const AboutPage = () => {
   return (
-    <div>
+    <Layout>
       <Header1 
         title="Who We Are"
         image={require('../images/about_LG.jpg')}
@@ -13,7 +14,7 @@ const AboutPage = () => {
       <AboutCard />
       {/* Use CardList Component when LG team gives green light */}
       {/* <CardList /> */}
-    </div>
+    </Layout>
   )
 }
 

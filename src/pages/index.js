@@ -1,7 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../components/Layout';
 import Header1 from '../components/Header1';
 import Goals from '../components/Goals/Goals';
 import Work from '../components/Work/Work';
+// import './index.css';
 
 const divStyle = {
   width: '100%',
@@ -13,7 +15,7 @@ const divStyle = {
 
 const IndexPage = () => {
   return(
-    <div>
+    <Layout>
       <Header1 
         imageLogo={require('../images/New_LG_Logo.svg')}
         style={divStyle}
@@ -24,7 +26,7 @@ const IndexPage = () => {
 
       
       <Goals />
-    </div>
+    </Layout>
   )
 }
 

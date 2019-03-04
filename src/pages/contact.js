@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Layout from '../components/Layout';
 import Header1 from '../components/Header1';
 
 const ContactPage = () => {
   return (
-    <div>
+    <Layout>
       <div className="Header" style={{marginBottom: 50+'px'}}>
       <Header1 
         // imageLogo={require('../images/New_LG_Logo.svg')}
@@ -11,7 +12,7 @@ const ContactPage = () => {
         image={require('../images/contact-header.jpg')}
       />
       </div>
-    </div>
+    </Layout>
   )
 }
 
