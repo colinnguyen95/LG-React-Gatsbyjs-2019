@@ -3,7 +3,9 @@ import Layout from '../components/Layout';
 import Header1 from '../components/Header1';
 import Goals from '../components/Goals/Goals';
 import Work from '../components/Work/Work';
-// import './index.css';
+import Img from 'gatsby-image';
+import { StaticQuery, graphql } from 'gatsby';
+// import './index.css'; 
 
 const divStyle = {
   width: '100%',
@@ -20,6 +22,7 @@ const IndexPage = () => {
         imageLogo={require('../images/New_LG_Logo.svg')}
         style={divStyle}
         image={require('../images/header_LG.jpg')}
+        // image={data.img1.childImageSharp.fluid}
       />
     
       <Work />
@@ -31,6 +34,20 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+
+// export const query = graphql`
+//   query {
+//     img1: file(relativePath: {eq: "header_LG.jpg"}) {
+//       childImageSharp {
+//         # Specify the image processing specifications right in the query.
+//         # Makes it trivial to update as your page's design changes.
+//         fluid(maxWidth: 500) {
+//               ...GatsbyImageSharpFluid
+//         }
+//       }
+//     }
+//   }
+// `
 
 // class IndexPage extends React.Component {
 //   constructor(props) {
