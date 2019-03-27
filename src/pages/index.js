@@ -1,10 +1,10 @@
 import React from 'react';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 // import Header1 from '../components/Header1';
-import Goals from '../components/Goals/Goals';
-import Work from '../components/Work/Work';
+import Goals from '../components/goals/goals';
+import Work from '../components/work/work';
 // import BackgroundSection from '../components/Background/BackgroundSection';
-import GatImg from '../components/GatImg'
+import GatImg from '../components/gatImg'
 import { graphql } from 'gatsby';
 // import './index.css'; 
 
