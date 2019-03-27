@@ -8,12 +8,11 @@ const HeaderWrapper = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     background: linear-gradient(
     rgba(20,20,20, .57),
     rgba(20,20,20, .70),
     rgba(20,20,20, .6));
-    opacity: 1 !important;
-    justify-content: center;
     background-position: center;
     overflow: hidden;
     position: relative;
@@ -49,7 +48,7 @@ const GatImg = ( props ) =>(
                 top: 0,
                 width: "100%",
                 height: "100%",
-                zIndex: -1
+                zIndex: -99
             }}
         />
 
