@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import Header1 from '../components/header1';
-import AboutCard from '../components/about/aboutcard';
+import AboutCard from '../components/about/AboutCard';
 // import CardList from '../components/CardList';
 
 const AboutPage = () => {
