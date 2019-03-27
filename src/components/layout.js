@@ -1,11 +1,10 @@
 import React from 'react';
 import { StaticQuery, graphql } from "gatsby";
-import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import Nav from './Navigation/Nav';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
-import './layout.css';
+import './Layout.css';
 import FavLG from '../images/FavLG.png';
 
 export default ({ children }) => (
