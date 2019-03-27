@@ -4,7 +4,6 @@ import Header1 from '../components/Header1';
 import Goals from '../components/Goals/Goals';
 import Work from '../components/Work/Work';
 import BackgroundSection from '../components/Background/BackgroundSection';
-import Img from 'gatsby-image';
 import GatImg from '../components/GatImg'
 import { graphql } from 'gatsby';
 // import './index.css'; 
