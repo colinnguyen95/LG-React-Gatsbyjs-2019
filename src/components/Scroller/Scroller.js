@@ -1,7 +1,6 @@
 import React from 'react'
 import './Scroller.css'
-import * as Scroll from 'react-scroll';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, Events, animateScroll as scroll, scroller } from 'react-scroll'
 
 class Scroller extends React.Component {
     constructor(props) {
