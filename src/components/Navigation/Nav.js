@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "gatsby";
-import './nav.css';
+import './Nav.css';
 import NavLogo from '../../images/BW_svg';
 
 class Nav extends React.Component {

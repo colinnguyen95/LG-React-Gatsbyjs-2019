@@ -1,6 +1,6 @@
 import React from 'react'
 import Img from 'gatsby-image';
-import Scroller from './scroller/scroller'
+import Scroller from './Scroller/Scroller'
 import styled from 'styled-components'
 
 const HeaderWrapper = styled.div`

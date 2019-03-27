@@ -1,6 +1,6 @@
 import React from 'react'
-import PageTitle from './pagetitle/pagetitle'
-import Scroller from './scroller/scroller'
+import PageTitle from './Pagetitle/Pagetitle'
+import Scroller from './Scroller/Scroller'
 import styled from 'styled-components'
 
 const HeaderGroup = styled.div`

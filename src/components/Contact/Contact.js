@@ -1,5 +1,5 @@
 import React from 'react'
-import './contact.css'
+import './Contact.css'
 
 const Contact = props => (
     <div name="ContactSection" className="ContactGroup">
