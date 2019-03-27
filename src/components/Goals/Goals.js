@@ -1,5 +1,5 @@
 import React from 'react'
-import './Goals.css'
+import './goals.css'
 
 const Goals = props => (
     <div className="GoalsGroup">

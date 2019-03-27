@@ -1,5 +1,5 @@
 import React from 'react'
-import './Work.css'
+import './work.css'
 
 const Work = props => (
     <div className="WorkGroup">

@@ -1,5 +1,5 @@
 import React from 'react'
-import './PageTitle.css'
+import './pagetitle.css'
 
 const PageTitle = props => (
     <div>
