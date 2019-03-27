@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 // import Header1 from '../components/Header1';
 import Goals from '../components/Goals/Goals';
 import Work from '../components/Work/Work';

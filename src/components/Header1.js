@@ -1,5 +1,5 @@
 import React from 'react'
-import PageTitle from './Pagetitle/Pagetitle'
+import PageTitle from './PageTitle/PageTitle'
 import Scroller from './Scroller/Scroller'
 import styled from 'styled-components'
 
