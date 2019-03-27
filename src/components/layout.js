@@ -5,7 +5,7 @@ import Helmet from 'react-helmet';
 import Nav from './Navigation/Nav';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
-import './index.css';
+import './layout.css';
 import FavLG from '../images/FavLG.png';
 
 export default ({ children }) => (

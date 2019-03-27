@@ -13,7 +13,7 @@ const Footer = props => (
             <p>110 Plaza West</p>
             <p>San Jose, CA 95128</p>
             <p><a href="tel:408-320-7643">(408) 320 - 7643</a> | <a href="mailto:info@lgmarketing.me">info@lgmarketing.me</a></p>
-            <p className="copyright">&copy; 2019 by LG Marketing LLC</p>
+            <p className="copyright">&copy; {new Date().getFullYear().toString()} by LG Marketing LLC</p>
         </div>
     </div>
 )

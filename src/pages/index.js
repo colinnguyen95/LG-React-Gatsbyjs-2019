@@ -1,10 +1,12 @@
 import React from 'react';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 import Header1 from '../components/Header1';
 import Goals from '../components/Goals/Goals';
 import Work from '../components/Work/Work';
+import BackgroundSection from '../components/Background/BackgroundSection';
 import Img from 'gatsby-image';
-import { StaticQuery, graphql } from 'gatsby';
+import GatImg from '../components/GatImg'
+import { graphql } from 'gatsby';
 // import './index.css'; 
 
 const divStyle = {
@@ -15,14 +17,25 @@ const divStyle = {
   animation: 'HeroAnimation 2s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1)'
 };
 
-const IndexPage = () => {
+const IndexPage = ( { data }) => {
   return(
     <Layout>
-      <Header1 
+      {/* <Header1 
         imageLogo={require('../images/New_LG_Logo.svg')}
         style={divStyle}
         image={require('../images/header_LG.jpg')}
         // image={data.img1.childImageSharp.fluid}
+      />
+      <BackgroundSection 
+        img={data.img.childImageSharp.fluid}
+        imageLogo={require('../images/New_LG_Logo.svg')}
+        styleClass="header-background"
+        style={divStyle}
+      /> */}
+      <GatImg 
+        img={data.img.childImageSharp.fluid}
+        imageLogo={require('../images/New_LG_Logo.svg')}
+        style={divStyle}
       />
     
       <Work />
@@ -33,21 +46,21 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export const query = graphql`
+  query {
+    img: file(relativePath: {eq: "header_LG.jpg"}) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fluid(quality: 100, maxWidth: 2048) {
+              ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
 
-// export const query = graphql`
-//   query {
-//     img1: file(relativePath: {eq: "header_LG.jpg"}) {
-//       childImageSharp {
-//         # Specify the image processing specifications right in the query.
-//         # Makes it trivial to update as your page's design changes.
-//         fluid(maxWidth: 500) {
-//               ...GatsbyImageSharpFluid
-//         }
-//       }
-//     }
-//   }
-// `
+export default IndexPage
 
 // class IndexPage extends React.Component {
 //   constructor(props) {

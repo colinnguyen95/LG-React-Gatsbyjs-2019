@@ -27,6 +27,30 @@ a[href^="tel"] {
   /* Additional css `propery: value;` pairs here */
 }
 
+.random-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+  width: 100%;
+}
+
+.header-background{
+  height: 550px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    rgba(20,20,20, .57),
+    rgba(20,20,20, .70),
+    rgba(20,20,20, .6));
+  opacity: 1 !important;
+  justify-content: center;
+  background-position: center;
+  object-position: 50% 50% !important;
+  background-size: cover !important;
+}
+
 .ServiceDesc{
   margin: 50px auto;
   width: 80%;
@@ -109,6 +133,10 @@ a[href^="tel"] {
     margin: 0px;
   }
 
+  .header-background{
+    height: 400px;
+  }
+
   .ServicesList{
     margin: 0px;
   }
@@ -141,6 +169,10 @@ a[href^="tel"] {
 
   .mainContainer {
     padding-bottom: 60px; 
+  }
+
+  .header-background{
+    height: 500px;
   }
 
   .ServicesList li{
