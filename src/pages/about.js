@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import Header1 from '../components/Header1';
 import AboutCard from '../components/About/AboutCard';
+import { graphql } from 'gatsby';
 // import CardList from '../components/CardList';
 
 const AboutPage = () => {
