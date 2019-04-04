@@ -1,9 +1,11 @@
 import React from 'react'
 import Img from 'gatsby-image';
+import PageTitle from './PageTitle/PageTitle'
 import Scroller from './Scroller/Scroller'
 import styled from 'styled-components'
 
 const HeaderWrapper = styled.div`
+    ${'' /* top: 50px; */}
     height: 550px;
     width: 100%;
     display: flex;
@@ -47,12 +49,13 @@ const GatImg = ( props ) =>(
                 left: 0,
                 top: 0,
                 width: "100%",
-                height: "100%",
+                height: "128%",
                 zIndex: -99
             }}
         />
 
         <HeaderLogo src={props.imageLogo} style={props.style}/>
+        <PageTitle title={props.title} />
         <Scroller />
     </HeaderWrapper>
     // <div className='random-div'>

@@ -1,13 +1,20 @@
 import React from 'react';
 import Layout from '../components/layout';
 import Header1 from '../components/Header1';
+import GatImg from '../components/GatImg'
+import { graphql } from 'gatsby';
 
-const ServicesPage = () => {
+const ServicesPage = ( { data } ) => {
   return (
     <Layout>
-      <Header1 
+      {/* <Header1 
         title="What We Do"
         image={require('../images/service-header.jpg')}
+      /> */}
+
+      <GatImg
+        title="What We Do" 
+        img={data.img.childImageSharp.fluid}
       />
 
       {/* <PageTitle
@@ -60,5 +67,19 @@ const ServicesPage = () => {
     </Layout>
   )
 }
+
+export const query = graphql`
+  query {
+    img: file(relativePath: {eq: "service-header.jpg"}) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fluid(quality: 100, maxWidth: 2048) {
+              ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
 
 export default ServicesPage

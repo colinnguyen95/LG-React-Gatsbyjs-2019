@@ -73,10 +73,15 @@
     font-weight: lighter;
 }
 
-.bottom .four{
+.bottom .fourG{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
     height: 400px;
     /* background: url(../images/about-resize.jpg) center center; */
-    background: url(../../images/lg_about.jpg) center center;
+    /* background: url(../../images/lg_about.jpg) center center; */
     background-size: cover;
     background-position: 0 20%;
 }
@@ -85,18 +90,20 @@
     display: flex;
 }
 
-.work2{
+.work2G{
     height: 400px;
     flex-basis: 50%;
-    background: url(../../images/lg_about_2.1.jpg) center center;
-    background-size: cover;
+    /* background: url(../../images/lg_about_2.1.jpg) center center; */
+    /* background-size: cover; */
+    background-repeat: no-repeat;
 }
 
-.work3{
+.work3G{
     height: 400px;
     flex-basis: 50%;
-    background: url(../../images/lg_about_3.jpg) center center;
+    /* background: url(../../images/lg_about_3.jpg) center center; */
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) {    
@@ -137,16 +144,17 @@
         border-radius: 3px;
     }       
             
-    .two{
+    .twoG{
         flex-basis: 25%;
-        background: url(../../images/lg_about_2.1.jpg) center center;
-        background-size: cover;
+        /* background: url(../../images/lg_about_2.1.jpg) center center; */
+        /* background-position: center center;
+        background-size: cover; */
     }
 
-    .three{
+    .threeG{
         flex-basis: 25%;
-        background: url(../../images/lg_about_3.jpg) center center;
-        background-size: cover;
+        /* background: url(../../images/lg_about_3.jpg) center center; */
+        /* background-size: cover; */
     }
       
     .bottom{
@@ -187,26 +195,34 @@
         font-weight: lighter;
     }
            
-    .bottom .four{
+    .bottom .fourG{
         height: 500px;
         flex-basis: 50%;
         /* background: url(../images/about-resize.jpg) center center; */
-        background-size: cover;
-        background-position: 0 35%;
+        /* background-size: cover;
+        background-position: 0 35%; */
     }
 
-    .work2{
+    /* .work2G{
         display: none;
     }
 
-    .work3{
+    .work3G{
         display: none;
-    }
+    } */
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .WorkGroup{
         margin-top: 20px;
+    }
+
+    .twoG{
+        display: none;
+    }
+    
+    .threeG{
+        display: none;
     }
   }
   
@@ -215,8 +231,3 @@
     ##Screen = B/w 320px to 479px
   */
   
-  @media (min-width: 320px) and (max-width: 480px) {
-    .WorkGroup{
-        margin-top: 20px;
-    }
-  }
