@@ -14,6 +14,7 @@ const Contact = props => (
             </div>
             
             <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact-form" />
                 <p>
                     <input type="text" name="name" placeholder="Name" id="name" required/>
                 </p>
