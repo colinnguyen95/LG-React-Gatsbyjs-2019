@@ -1,7 +1,7 @@
 import React from 'react'
 import './Contact.css'
 
-const Contact = props => (
+const Contact = () => (
     <div name="ContactSection" className="ContactGroup">
         <div className="contact-container">
             <div className="contact-section">
@@ -13,7 +13,7 @@ const Contact = props => (
                 <div className="alert">Your message has been sent</div>
             </div>
             
-            <form action='/?no-cache=1' name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+            <form action='/success' name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
                 <input type="hidden" name="form-name" value="contact-form" />
                 <p>
                     <input type="text" name="name" placeholder="Name" id="name" required/>
