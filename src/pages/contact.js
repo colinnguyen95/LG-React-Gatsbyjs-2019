@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../components/layout';
-import Header1 from '../components/Header1';
 import GatImg from '../components/GatImg'
 import { graphql } from 'gatsby';
 

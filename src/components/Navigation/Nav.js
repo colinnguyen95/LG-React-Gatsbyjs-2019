@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "gatsby";
+import { Link } from "gatsby"; 
 import './Nav.css';
 import NavLogo from '../../images/BW_svg';
 
@@ -37,8 +37,8 @@ class Nav extends React.Component {
     }
 
     render() {
-        const {isExpanded, height} = this.state;
-        const currentHeight = isExpanded ? height : 0;
+        const { isExpanded } = this.state;
+        // const currentHeight = isExpanded ? height : 0;
         return(
         <div className={this.state.hasScrolled ? "nav-section NavScrolled" : "nav-section"}>
             <div className="nav-container">

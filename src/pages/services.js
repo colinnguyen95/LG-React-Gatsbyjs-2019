@@ -1,35 +1,15 @@
 import React from 'react';
 import Layout from '../components/layout';
-import Header1 from '../components/Header1';
 import GatImg from '../components/GatImg'
 import { graphql } from 'gatsby';
 
 const ServicesPage = ( { data } ) => {
   return (
     <Layout>
-      {/* <Header1 
-        title="What We Do"
-        image={require('../images/service-header.jpg')}
-      /> */}
-
       <GatImg
         title="What We Do" 
         img={data.img.childImageSharp.fluid}
       />
-
-      {/* <PageTitle
-        title="What We Do"
-      /> */}
-
-      {/* <div className="ServiceGroup2">
-        <div className="ServiceDesc">
-          <p>Our 30+ years of combined experience in medical device marketing and a talent-diverse team bring a personalized, deadline-sensitive and flexible approach to a wide range of services.</p>
-        </div>
-        <div className="serviceImg">
-          <img src={require('../images/lg-services.jpg')} />
-        </div>
-      </div> */}
-
       <div className="ServiceDesc">
         <p>Our 30+ years of combined experience in medical device marketing and a talent-diverse team bring a personalized, deadline-sensitive and flexible approach to a wide range of services.</p>
       </div>

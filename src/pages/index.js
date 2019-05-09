@@ -1,7 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
 import Goals from '../components/Goals/Goals';
-import Work from '../components/Work/Work';
 import Work1 from '../components/Work1/Work1';
 import GatImg from '../components/GatImg'
 import { graphql } from 'gatsby';

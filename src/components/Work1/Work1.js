@@ -1,7 +1,6 @@
 import React from 'react'
 import './Work1.css'
 import Img from 'gatsby-image';
-import styled from 'styled-components'
 import { graphql, StaticQuery } from 'gatsby';
 
 const IMAGES = graphql` 
