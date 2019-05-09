@@ -19,6 +19,7 @@ const IndexPage = ( { data }) => {
       <GatImg 
         img={data.img.childImageSharp.fluid}
         imageLogo={require('../images/New_LG_Logo.svg')}
+        alt="LG Logo"
         style={divStyle}
       />
       <Work1 />

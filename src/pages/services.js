@@ -9,6 +9,7 @@ const ServicesPage = ( { data } ) => {
       <GatImg
         title="What We Do" 
         img={data.img.childImageSharp.fluid}
+        alt="Services"
       />
       <div className="ServiceDesc">
         <p>Our 30+ years of combined experience in medical device marketing and a talent-diverse team bring a personalized, deadline-sensitive and flexible approach to a wide range of services.</p>

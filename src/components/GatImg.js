@@ -44,6 +44,7 @@ const GatImg = ( props ) =>(
     <HeaderWrapper>
         <Img 
             fluid={props.img}
+            alt={props.alt}
             style={{
                 position: "absolute",
                 left: 0,
@@ -53,30 +54,10 @@ const GatImg = ( props ) =>(
                 zIndex: -99
             }}
         />
-
         <HeaderLogo src={props.imageLogo} style={props.style}/>
         <PageTitle title={props.title} />
         <Scroller />
     </HeaderWrapper>
-    // <div className='random-div'>
-        // <BackgroundImage 
-        //     className={props.styleClass}
-        //     fluid={props.img}
-        //     // style={{
-        //     //     height: 550,
-        //     //     left: 0,
-        //     //     top: 0,
-        //     //     backgroundSize: 'cover',
-        //     //     backgroundPosition: 'center'
-        //     // }}
-        // >
-        //     {/* <HeaderLogo src={props.imageLogo} style={props.style}/> */}
-        //     <Scroller />
-
-            
-
-        // </BackgroundImage>
-    // </div>
 )
 
 export default GatImg

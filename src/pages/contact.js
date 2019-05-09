@@ -7,14 +7,10 @@ const ContactPage = ( { data } ) => {
   return (
     <Layout>
       <div className="Header" style={{marginBottom: 50+'px'}}>
-      {/* <Header1 
-        // imageLogo={require('../images/New_LG_Logo.svg')}
-        title="Hello There!"
-        image={require('../images/contact-header.jpg')}
-      /> */}
       <GatImg
         title="Hello There!" 
         img={data.img.childImageSharp.fluid}
+        alt="Contact"
       />
       </div>
     </Layout>

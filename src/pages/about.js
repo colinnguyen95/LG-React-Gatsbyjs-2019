@@ -14,6 +14,7 @@ const AboutPage = ( { data } ) => {
       <GatImg
         title="Who We Are" 
         img={data.img.childImageSharp.fluid}
+        alt="About"
         // style={{
         //   width: "100%",
         //   height: "155%",

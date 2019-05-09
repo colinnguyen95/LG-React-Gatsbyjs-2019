@@ -53,20 +53,22 @@ const Work1 = () => {
                 </div>
                 <div className="item small twoG">
                     <Img 
-                        fluid={img2}
-                        style={{
-                          width: "100%",
-                          height: "100%"
-                        }}
+                      fluid={img2}
+                      alt=""
+                      style={{
+                        width: "100%",
+                        height: "100%"
+                      }}
                     />
                 </div>
                 <div className="item small threeG">
                     <Img 
-                        fluid={img3}
-                        style={{
-                          width: "100%",
-                          height: "100%"
-                        }}
+                      fluid={img3}
+                      alt=""
+                      style={{
+                        width: "100%",
+                        height: "100%"
+                      }}
                     />
                 </div>
             </div>
@@ -74,15 +76,16 @@ const Work1 = () => {
             <div className="bottom">
                 <div className="item large fourG">
                   <Img 
-                      fluid={img1}
-                      className="aboutImg"
-                      style={{
-                        width: "100%",
-                        height: "125%",
-                        position: "absolute",
-                        left: 0,
-                        top: 0,
-                      }}
+                    fluid={img1}
+                    className="aboutImg"
+                    alt=""
+                    style={{
+                      width: "100%",
+                      height: "125%",
+                      position: "absolute",
+                      left: 0,
+                      top: 0,
+                    }}
                   />
                 </div>
                 <div className="item large one">
@@ -98,21 +101,23 @@ const Work1 = () => {
                 <div className="workBottom">
                     <div className="item small work2G">
                       <Img 
-                          fluid={img2}
-                          style={{
-                            width: "100%",
-                            height: "100%"
-                          }}
+                        fluid={img2}
+                        alt=""
+                        style={{
+                          width: "100%",
+                          height: "100%"
+                        }}
                       />
                     </div>
                     <div className="item small work3G">
                       <Img 
-                            fluid={img3}
-                            style={{
-                              width: "100%",
-                              height: "100%"
-                            }}
-                        />
+                        fluid={img3}
+                        alt=""
+                        style={{
+                          width: "100%",
+                          height: "100%"
+                        }}
+                      />
                     </div>
                 </div>
             </div>
