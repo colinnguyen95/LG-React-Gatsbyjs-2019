@@ -9,9 +9,6 @@ body {
   max-width: 1200px;
   height: 100%;
   position: relative;
-  text-decoration: none !important; 
-  /* display: flex;
-  justify-content: center; */
 }
 
 .mainContainer {

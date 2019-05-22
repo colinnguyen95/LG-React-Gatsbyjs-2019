@@ -42,10 +42,7 @@ class Nav extends React.Component {
         return(
         <div className={this.state.hasScrolled ? "nav-section NavScrolled" : "nav-section"}>
             <div className="nav-container">
-                <Link  to="/" activeClassName="active">
-                    {/* <img className="navLogo" src={require("../../images/BW_Logo.svg")} /> */}
-                    <NavLogo />
-                </Link>
+                <NavLogo />
                 <nav className={`site-nav ${isExpanded ? 'site-nav--open' : ""}`} ref="inner">
                     <ul>
                         <li onClick={(e) => this.handleToggle(e)}>
