@@ -6,7 +6,7 @@ body {
   font-size: 20px;
   line-height: 1.3;
   background-color: #F6F3EB;
-  max-width: 1200px;
+  
   height: 100%;
   position: relative;
 }
@@ -126,9 +126,9 @@ a[href^="tel"] {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  body {
+  /* body {
     margin: 0px;
-  }
+  } */
 
   .header-background{
     height: 400px;
@@ -163,6 +163,9 @@ a[href^="tel"] {
   /* .Container{
     justify-content: space-between;
   } */
+  body{
+    width: 100%;
+  }
 
   .mainContainer {
     padding-bottom: 60px; 
@@ -178,9 +181,15 @@ a[href^="tel"] {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1024px){
+  body {
+    max-width: 980px;
+  }
+}
+
+@media (min-width: 1025px) {
   body{
-    margin: 0 80px;
+    margin: 0 auto;
   }
 
   .mainContainer {
@@ -188,15 +197,6 @@ a[href^="tel"] {
   }
 }
 
-@media (min-width: 1281px) {
-  body{
-    margin: 0 auto;
-  }
-
-  .mainContainer {
-    padding-bottom: 80px; 
-  }
-}
 
 
 

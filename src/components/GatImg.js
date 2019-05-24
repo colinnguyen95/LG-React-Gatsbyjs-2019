@@ -5,16 +5,15 @@ import Scroller from './Scroller/Scroller'
 import styled from 'styled-components'
 
 const HeaderWrapper = styled.div`
-    ${'' /* top: 50px; */}
-    height: 550px;
+    height: 450px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(
-    rgba(20,20,20, .57),
-    rgba(20,20,20, .70),
-    rgba(20,20,20, .6));
+    rgba(20,20,20, .4),
+    rgba(20,20,20, .6),
+    rgba(20,20,20, .4));
     background-position: center;
     overflow: hidden;
     position: relative;
@@ -30,6 +29,11 @@ const HeaderWrapper = styled.div`
      @media (min-width: 768px) and (max-width: 1024px) {
          height: 500px;
     }
+
+    @media (min-width: 1024px) {
+        margin-top: 50px;
+    }
+
 `
 
 const HeaderLogo = styled.img`
@@ -50,7 +54,7 @@ const GatImg = ( props ) =>(
                 left: 0,
                 top: 0,
                 width: "100%",
-                height: "128%",
+                height: "100%",
                 zIndex: -99
             }}
         />
