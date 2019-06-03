@@ -14,7 +14,7 @@ const Contact = () => (
             </div>
             
             <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-                <input type="hidden" name="contact" value="contact" />
+                <input type="hidden" name="form-name" value="contact" />
                 <p>
                     <input type="text" name="name" placeholder="Name" id="name" required/>
                 </p>
