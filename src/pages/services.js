@@ -16,6 +16,7 @@ const ServicesPage = ( { data } ) => {
       </div>
       <div className="ServicesList">
         <div className="Container">
+          <div className="listContainers">
           <ul>
             <li>Branding</li>
             <li>Collateral Development</li>
@@ -25,6 +26,8 @@ const ServicesPage = ( { data } ) => {
             <li>Direct-to-Consumer Marketing</li>
             <li>Educational Webcasts</li>
           </ul>
+          </div>
+          <div className="listContainers">
           <ul>
             <li>Event/Trade Show Planning</li>
             <li>Global Marketing</li>
@@ -34,6 +37,8 @@ const ServicesPage = ( { data } ) => {
             <li>New Product Launch</li>
             <li>Photography</li>
           </ul>
+          </div>
+          <div className="listContainers">
           <ul>
             <li>Program Management</li>
             <li>Practice Marketing</li>
@@ -43,6 +48,7 @@ const ServicesPage = ( { data } ) => {
             <li>Video Production</li>
             <li>Website Development</li>
           </ul>
+          </div>
         </div>
       </div>
     </Layout>
