@@ -11,6 +11,10 @@ body {
   overflow-x: hidden !important;
 }
 
+svg {
+  display:inline-block;
+}
+
 .mainContainer {
   min-height: 100vh; 
   display: block;
