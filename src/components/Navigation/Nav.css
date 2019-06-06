@@ -11,7 +11,7 @@
     color: #4FC2AA;
 }
 
-.navLogo {
+.navLogo path, use {
     fill:  #7F7F7F;
 }
 
@@ -81,11 +81,6 @@
     color: #4FC2AA; 
 }
 
-/* .site-nav a:hover,
-.site-nav a:focus {
-    background: #E4B363;
-} */
-
 .site-nav--open{
     height: 430px;
 }
@@ -101,24 +96,6 @@
 .open .hamburger::after{
     transform: translateY(-3px) rotate(-90deg);
 }
-
-/* .menu-toggle{
-    padding: 1em;
-    position: absolute;
-    top: .5em;
-    right: .5em;
-    cursor: pointer;
-}
-
-.site-nav{
-    float: right;
-    background: white;
-    position: absolute;
-    top: 100%;
-    right: 0%;
-    height: 0px;
-    overflow: hidden;
-} */
 
 @media (min-width: 1025px){
     .nav-section{
@@ -152,10 +129,6 @@
         backdrop-filter: blur(20px);
         padding: 15px 0;
     }
-
-    /* .NavScrolled .active{
-        color: #4FC2AA;
-    } */
 
     .menu-toggle{
         display: none;
@@ -197,7 +170,11 @@
         font-weight: 600;
     }
 
-    .NavScrolled .navLogo{
+    .NavScrolled .navLogo path{
+        fill: #FFF;
+    }
+
+    .NavScrolled .navLogo use{
         fill: #FFF;
     }
 
