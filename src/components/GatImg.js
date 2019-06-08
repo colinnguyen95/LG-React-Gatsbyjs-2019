@@ -58,7 +58,7 @@ const GatImg = ( props ) =>(
                 zIndex: -99
             }}
         />
-        <HeaderLogo src={props.imageLogo} style={props.style}/>
+        <HeaderLogo src={props.imageLogo} style={props.style} alt={props.alt}/>
         <PageTitle title={props.title} />
         <Scroller />
     </HeaderWrapper>
