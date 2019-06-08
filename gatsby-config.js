@@ -14,6 +14,18 @@ module.exports = {
         path: `${__dirname}/src/images/`
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `LG Marketing`,
+        short_name: `LG Marketing`,
+        start_url: `/`,
+        background_color: `#F5F3EB`,
+        theme_color: `#4FC2AA`,
+        display: `standalone`,
+        icon: 'src/images/Fav_LG.png',
+      },
+    },
     'gatsby-plugin-react-helmet', 
     `gatsby-transformer-sharp`, 
     `gatsby-plugin-sharp`,
