@@ -32,7 +32,7 @@ const AboutCard = () => {
         <div className="CardGroup1">
             <h3>Gina Jackman, </h3>
             <h6>Co-Founder</h6>
-            <h6 className="email"><p><a href="mailto:lynh@lgmarketing.me">gina@lgmarketing.me</a> | <a href="tel:408-483-7132">Phone: (408) 483-7132</a></p></h6>
+            <h6 className="email"><p><a href="mailto:gina@lgmarketing.me">gina@lgmarketing.me</a> | <a href="tel:408-483-7132">Phone: (408) 483-7132</a></p></h6>
             <div className="Card1">
                 <img alt="team" src={'https://drh2acu5z204m.cloudfront.net/items/1m0L151M0X3i0A0c2r2q/LG-Gina.jpg?X-CloudApp-Visitor-Id=3116428&v=1637cac0'}/>
             </div>
